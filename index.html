@@ -258,7 +258,7 @@
             </div>
         </div>
         <div class="row5">
-            <div class="r5content">
+            <div id="autoscrollmotion5" class="r5content">
                 <p>DS: Wolfgang, it’s an honor for me to talk to you and I want to thank you for allowing me to use an image
                     of yours for my novel. But first I wanted to ask, did you take any photos of the recent strawberry moon?</p>
                 <p>WT: Ah, I did. But it’s a sad story. I did photograph the moon on Wednesday night and woke up in the morning to the
@@ -589,7 +589,7 @@
 
             if (document.getElementById('autoscrollmotion2').scrollTop < (document.getElementById('autoscrollmotion2').scrollHeight - document.getElementById('autoscrollmotion2').offsetHeight)) {
                 -1
-                document.getElementById('autoscrollmotion2').scrollTop = document.getElementById('autoscrollmotion2').scrollTop + 1
+                document.getElementById('autoscrollmotion2').scrollTop = document.getElementById('autoscrollmotion2').scrollTop - 1
             }
             else { document.getElementById('autoscrollmotion2').scrollTop = 0; }
         }
@@ -611,11 +611,21 @@
             }
             else { document.getElementById('autoscrollmotion4').scrollTop = 0; }
         }
+        
+        function ScrollDiv5() {
+
+            if (document.getElementById('autoscrollmotion5').scrollTop < (document.getElementById('autoscrollmotion5').scrollHeight - document.getElementById('autoscrollmotion5').offsetHeight)) {
+                -1
+                document.getElementById('autoscrollmotion5').scrollTop = document.getElementById('autoscrollmotion5').scrollTop + 1
+            }
+            else { document.getElementById('autoscrollmotion5').scrollTop = 0; }
+        }
 
         setInterval(ScrollDiv, 50)
         setInterval(ScrollDiv2, 50)
         setInterval(ScrollDiv3, 50)
         setInterval(ScrollDiv4, 50)
+        setInterval(ScrollDiv5, 50)
     </script>
     </body>
 
