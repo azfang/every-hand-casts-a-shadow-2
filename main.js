@@ -23,8 +23,8 @@
         function ScrollDiv2() {
 
             if (document.getElementById('autoscrollmotion2').scrollTop < (document.getElementById('autoscrollmotion2').scrollHeight - document.getElementById('autoscrollmotion2').offsetHeight)) {
-                +1
-                document.getElementById('autoscrollmotion2').scrollTop = document.getElementById('autoscrollmotion2').scrollTop - 1
+                -1
+                document.getElementById('autoscrollmotion2').scrollTop = document.getElementById('autoscrollmotion2').scrollTop + 1
             }
             else { document.getElementById('autoscrollmotion2').scrollTop = 0; }
         }
