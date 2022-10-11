@@ -322,7 +322,7 @@
             </div>
         </div>
         <div class="row6">
-            <div class="r6content">
+            <div id="autoscrollmotion6" class="r6content">
                 <p>In his 1960–61 manifestos on auto-destructive art, Metzger speaks of an art that “re-enacts” capitalism’s “obsession with destruction. </p>
                 <p>Writing in the aftermath of Hiroshima and Nagasaki, Anders argues that we have become “inverted Utopians”: while “ordinary Utopians are
                     unable to actually produce what they are able to visualize, we are unable to visualize what we are actually producing.” This Promethean
@@ -363,7 +363,7 @@
             </div>
         </div>
         <div class="row7">
-            <div class="r7content">
+            <div id="autoscrollmotion7" class="r7content">
                 <p id="colorchangetest">
                     The poor image is a copy in motion. Its quality is bad, its resolution substandard. As it accelerates, it
                     deteriorates. It is a ghost of an image, a preview, a thumbnail, an errant idea, an itinerant image distributed
@@ -417,7 +417,7 @@
             </div>
         </div>
         <div class="row8">
-            <div class="r8content">
+            <div id="autoscrollmotion8" class="r8content">
                 <p id="colorchangetest">
                     The poor image is a copy in motion. Its quality is bad, its resolution substandard. As it accelerates, it
                     deteriorates. It is a ghost of an image, a preview, a thumbnail, an errant idea, an itinerant image distributed
@@ -471,7 +471,7 @@
             </div>
         </div>
         <div class="row9">
-            <div class="r9content">
+            <div id="autoscrollmotion9" class="r9content">
                 <p id="colorchangetest">
                     The poor image is a copy in motion. Its quality is bad, its resolution substandard. As it accelerates, it
                     deteriorates. It is a ghost of an image, a preview, a thumbnail, an errant idea, an itinerant image distributed
@@ -523,7 +523,7 @@
             </div>
         </div>
         <div class="row10">
-            <div class="r10content">
+            <div id="autoscrollmotion10" class="r10content">
                 <p id="colorchangetest">
                     The poor image is a copy in motion. Its quality is bad, its resolution substandard. As it accelerates, it
                     deteriorates. It is a ghost of an image, a preview, a thumbnail, an errant idea, an itinerant image distributed
@@ -620,12 +620,31 @@
             }
             else { document.getElementById('autoscrollmotion5').scrollTop = 0; }
         }
+        
+       function ScrollDiv6() {
+
+            if (document.getElementById('autoscrollmotion6').scrollTop < (document.getElementById('autoscrollmotion6').scrollHeight - document.getElementById('autoscrollmotion6').offsetHeight)) {
+                -1
+                document.getElementById('autoscrollmotion6').scrollTop = document.getElementById('autoscrollmotion6').scrollTop + 1
+            }
+            else { document.getElementById('autoscrollmotion6').scrollTop = 0; }
+        }
+        
+       function ScrollDiv7() {
+
+            if (document.getElementById('autoscrollmotion7').scrollTop < (document.getElementById('autoscrollmotion7').scrollHeight - document.getElementById('autoscrollmotion7').offsetHeight)) {
+                -1
+                document.getElementById('autoscrollmotion7').scrollTop = document.getElementById('autoscrollmotion7').scrollTop + 1
+            }
+            else { document.getElementById('autoscrollmotion7').scrollTop = 0; }
+        }        
 
         setInterval(ScrollDiv, 50)
         setInterval(ScrollDiv2, 50)
         setInterval(ScrollDiv3, 50)
         setInterval(ScrollDiv4, 50)
         setInterval(ScrollDiv5, 50)
+        setInterval(ScrollDiv6, 50)
     </script>
     </body>
 
