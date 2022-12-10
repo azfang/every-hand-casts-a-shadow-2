@@ -1,6 +1,5 @@
 html {
     background-color: #CCCCCC;
-
 }
 
 body {
@@ -13,22 +12,184 @@ body {
     margin-right: 0;
 }
 
+p {
+    /* margin: 0; */
+    font-size: 10.5px;
+    font-family: 'blot', serif;
+}
+
+img {
+    position: absolute;
+    width: auto;
+    max-height: 20vh;
+}
+
+/* Pull quotes, overlaid above the primary text, come up upon hover of certain sections */
+/* .quote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 0;
+} */
+#r1quote {
+    float: left;
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.quotetxt {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    padding: 2px;
+}
+
+/* Image placements within the first pull quote */
+#loopvid1 {
+    margin-left: 4vw;
+    margin-top: 29.25vh;
+    opacity: 0;
+}
+#loopvid2 {
+    margin-left: 21.5vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+#loopvid3 {
+    margin-left: 69vw;
+    margin-top: 22vh;
+    opacity: 0;
+}
+
+/* Placements of the first quote's text blocks */
+#r1quote_block1 {
+    margin-left: 5vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+#r1quote_block2 {
+    margin-left: 6vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+#r1quote_block3 {
+    margin-left: 4vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+#r1quote_block4 {
+    margin-left: 8vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+#r1quote_block5 {
+    margin-left: 6vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+#r1quote_block6 {
+    margin-left: 8vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+#r1quote_block7 {
+    margin-left: 12vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+#r1quote_block8 {
+    margin-left: 16vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+#r1quote_block9 {
+    margin-left: 18vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+#r1quote_block10 {
+    margin-left: 36vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+#r1quote_block11 {
+    margin-left: 40vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+#r1quote_block12 {
+    margin-left: 42vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+#r1quote_block13 {
+    margin-left: 46vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+#r1quote_block14 {
+    margin-left: 50vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+#r1quote_block15 {
+    margin-left: 56vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+#r1quote_block16 {
+    margin-left: 58.5vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+#r1quote_block17 {
+    margin-left: 54vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+#r1quote_block18 {
+    margin-left: 49.5vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+#r1quote_block19 {
+    margin-left: 58vw;
+    margin-top: 47.5vh;
+    opacity: 0;
+}
+#r1quote_block20 {
+    margin-left: 68vw;
+    margin-top: 45vh;
+    opacity: 0;
+}
+#r1quote_block21 {
+    margin-left: 72.5vw;
+    margin-top: 42.5vh;
+    opacity: 0;
+}
+
+/* Stylization for the ten rows of text in the background */
 .bodycontent {
     margin: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    z-index: 0;
 }
 
-.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12 {
-    width: 200px;
-    min-height: 100vh;
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10 {
+    width: 10vw;
+    max-height: 100vh;
     /* HOVER OFF */
    -webkit-transition: width 2s;
 }
 
-.row1:hover, .row2:hover, .row3:hover, .row4:hover, .row5:hover, .row6:hover, .row7:hover, .row8:hover, .row9:hover, .row10:hover, .row11:hover, .row12:hover {
-    width: 400px;
+.row1:hover, .row2:hover, .row3:hover, .row4:hover, .row5:hover, .row6:hover, .row7:hover, .row8:hover, .row9:hover, .row10:hover {
+    width: 15vw;
     transition: 1s;
 }
 
@@ -42,26 +203,6 @@ body {
 
 ::-webkit-scrollbar {
     display: none;
-}
-
-h1 {
-    /* font-family: 'blot', sans-serif;
-    font-size: 20px;
-    padding: 20px 0px 0px 0px; */
-}
-
-p {
-    /* margin: 0; */
-    font-size: 10px;
-    font-family: 'blot', serif;
-}
-
-img {
-    align-content: center;
-    padding: 5px;
-    /* filter: drop-shadow(5px 5px 4px #DDDDDD); */
-    display : block;
-    margin : auto;
 }
 
 .blot2 {
