@@ -105,16 +105,6 @@ $(document).ready(function() {
     //homepage
 
     //homepage popup animations
-    $(".r1content").hide().delay(100).fadeIn(300);
-    $(".r2content").hide().delay(200).fadeIn(300);
-    $(".r3content").hide().delay(300).fadeIn(300);
-    $(".r4content").hide().delay(400).fadeIn(300);
-    $(".r5content").hide().delay(500).fadeIn(300);
-    $(".r6content").hide().delay(600).fadeIn(300);
-    $(".r7content").hide().delay(700).fadeIn(300);
-    $(".r8content").hide().delay(800).fadeIn(300);
-    $(".r9content").hide().delay(900).fadeIn(300);
-    $(".r10content").hide().delay(1000).fadeIn(300);
     $("#r1quote").hide();
 });
 var R1T1I1 = anime({
