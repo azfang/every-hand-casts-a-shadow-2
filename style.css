@@ -1,204 +1,160 @@
 html {
-    background-color: #CCCCCC;
+    margin: 0;
+    height: 100vh;
+    /* background-color: #CCCCCC; */
+    /* cursor: url(‘cursor.png’), auto; */
 }
 
 body {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 100vw;
+    /* max-height: 100vh; */
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
     overflow-x: auto;
     overflow-y: hidden;
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
+    padding: 0px 1px;
+    border-left: 1.5px dotted black;
+    border-right: 1.5px dotted black;
+    cursor: crosshair;
+    background-color: #CCCCCC;
+    /* background-color: white; */
+    /* background-color: pink; */
 }
 
 p {
     /* margin: 0; */
-    font-size: 10.5px;
+    /* font-size: 125px; */
+    font-size: 12.75px;
     font-family: 'blot', serif;
+    list-style: none;
+    padding: 2px 0px;
+}
+
+details {
+    font-size: 11px;
+    font-family: 'blot', serif;
+    list-style: none;
+    cursor: hover;
+    padding: 0.5em;
+}
+
+summary {
+    /* font-weight: bold; */
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    list-style: none;
+    /* transition: 1s; */
+}
+
+
+details[open] {
+    padding: 0.5em;
+    list-style: none;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+
+a {
+    border-bottom: 1.5px dotted black;
+    line-height: 1.5;
+    /* color: white; */
 }
 
 img {
     position: absolute;
     width: auto;
-    max-height: 20vh;
-}
-
-/* Pull quotes, overlaid above the primary text, come up upon hover of certain sections */
-/* .quote {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    z-index: 0;
-} */
-#r1quote {
-    float: left;
-    position: absolute;
-    min-width: 100vw;
-    min-height: 100vh;
-}
-
-.quotetxt {
-    position: absolute;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: white;
-    padding: 2px;
-}
-
-/* Image placements within the first pull quote */
-#loopvid1 {
-    margin-left: 4vw;
-    margin-top: 29.25vh;
-    opacity: 0;
-}
-#loopvid2 {
-    margin-left: 21.5vw;
-    margin-top: 70vh;
-    opacity: 0;
-}
-#loopvid3 {
-    margin-left: 69vw;
-    margin-top: 22vh;
-    opacity: 0;
-}
-
-/* Placements of the first quote's text blocks */
-#r1quote_block1 {
-    margin-left: 5vw;
-    margin-top: 50vh;
-    opacity: 0;
-}
-#r1quote_block2 {
-    margin-left: 6vw;
-    margin-top: 52.5vh;
-    opacity: 0;
-}
-#r1quote_block3 {
-    margin-left: 4vw;
-    margin-top: 55vh;
-    opacity: 0;
-}
-#r1quote_block4 {
-    margin-left: 8vw;
-    margin-top: 57.5vh;
-    opacity: 0;
-}
-#r1quote_block5 {
-    margin-left: 6vw;
-    margin-top: 60vh;
-    opacity: 0;
-}
-#r1quote_block6 {
-    margin-left: 8vw;
-    margin-top: 62.5vh;
-    opacity: 0;
-}
-#r1quote_block7 {
-    margin-left: 12vw;
-    margin-top: 65vh;
-    opacity: 0;
-}
-#r1quote_block8 {
-    margin-left: 16vw;
-    margin-top: 67.5vh;
-    opacity: 0;
-}
-#r1quote_block9 {
-    margin-left: 18vw;
-    margin-top: 70vh;
-    opacity: 0;
-}
-#r1quote_block10 {
-    margin-left: 36vw;
-    margin-top: 70vh;
-    opacity: 0;
-}
-#r1quote_block11 {
-    margin-left: 40vw;
-    margin-top: 67.5vh;
-    opacity: 0;
-}
-#r1quote_block12 {
-    margin-left: 42vw;
-    margin-top: 65vh;
-    opacity: 0;
-}
-#r1quote_block13 {
-    margin-left: 46vw;
-    margin-top: 62.5vh;
-    opacity: 0;
-}
-#r1quote_block14 {
-    margin-left: 50vw;
-    margin-top: 60vh;
-    opacity: 0;
-}
-#r1quote_block15 {
-    margin-left: 56vw;
-    margin-top: 57.5vh;
-    opacity: 0;
-}
-#r1quote_block16 {
-    margin-left: 58.5vw;
-    margin-top: 55vh;
-    opacity: 0;
-}
-#r1quote_block17 {
-    margin-left: 54vw;
-    margin-top: 52.5vh;
-    opacity: 0;
-}
-#r1quote_block18 {
-    margin-left: 49.5vw;
-    margin-top: 50vh;
-    opacity: 0;
-}
-#r1quote_block19 {
-    margin-left: 58vw;
-    margin-top: 47.5vh;
-    opacity: 0;
-}
-#r1quote_block20 {
-    margin-left: 68vw;
-    margin-top: 45vh;
-    opacity: 0;
-}
-#r1quote_block21 {
-    margin-left: 72.5vw;
-    margin-top: 42.5vh;
-    opacity: 0;
+    max-height: 22.15vh;
 }
 
 /* Stylization for the ten rows of text in the background */
 .bodycontent {
-    margin: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     z-index: 0;
+    /* cursor: url(‘cursor.png’), auto; */
 }
 
-.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10 {
-    width: 10vw;
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8,
+.row9,
+.row10 {
+    width: 15vw;
+    /* width: 15vw; */
     max-height: 100vh;
     /* HOVER OFF */
-   -webkit-transition: width 2s;
+    -webkit-transition: width 2s;
+    padding: 0px 1px;
+    background-color: none;
+    opacity: 0;
 }
 
-.row1:hover, .row2:hover, .row3:hover, .row4:hover, .row5:hover, .row6:hover, .row7:hover, .row8:hover, .row9:hover, .row10:hover {
-    width: 15vw;
+.row1:hover,
+.row2:hover,
+.row3:hover,
+.row4:hover,
+.row5:hover,
+.row6:hover,
+.row7:hover,
+.row8:hover,
+.row9:hover,
+.row10:hover {
+    width: 22vw;
     transition: 1s;
 }
 
-.r1content, .r2content, .r3content, .r4content, .r5content, .r6content, .r7content, .r8content, .r9content, .r10content, .r11content, .r12content {
+.r1content,
+.r2content,
+.r3content,
+.r4content,
+.r5content,
+.r6content,
+.r7content,
+.r8content,
+.r9content,
+.r10content,
+.r11content,
+.r12content {
     padding: 0px 10px 0px 10px;
-    border-left: 1px dotted black;
-    border-right: 1px dotted black;
-    height: 120vh;
+    border-left: 1.5px dotted black;
+    border-right: 1.5px dotted black;
+    height: 100vh;
     overflow: auto;
+}
+
+.topper {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.titletxt {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    padding: 2px;
+    /* width: 50%; */
+    z-index: 2;
+    text-align: center;
+    /* position: absolute; */
+}
+
+#titleblock1 {
+    left: 3.25%;
 }
 
 ::-webkit-scrollbar {
@@ -227,4 +183,432 @@ img {
 @font-face {
     font-family: blot;
     src: url(founders-grotesk-mono-test-light.woff);
-  }
+}
+
+/* Pull quotes, overlaid above the primary text, come up upon hover of certain sections */
+/* .quote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 0;
+} */
+
+#r1quote,
+#r2quote {
+    float: left;
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.quotetxt {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    padding: 2px;
+}
+
+/* Image placements within the first pull quote */
+/* Remember, you added 20 here!! */
+#loopvid1A {
+    margin-left: 4vw;
+    margin-top: 27.25vh;
+    opacity: 0;
+}
+
+#loopvid1B {
+    margin-left: 23.5vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#loopvid1C {
+    margin-left: 71vw;
+    margin-top: 19.5vh;
+    opacity: 0;
+}
+
+/* Placements of the first quote's text blocks */
+/* Remember, you added 20 here!! */
+#r1quote_block1 {
+    margin-left: 4vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+
+#r1quote_block2 {
+    margin-left: 6vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+
+#r1quote_block3 {
+    margin-left: 4vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+
+#r1quote_block4 {
+    margin-left: 8vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+
+#r1quote_block5 {
+    margin-left: 6vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+
+#r1quote_block6 {
+    margin-left: 8vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+
+#r1quote_block7 {
+    margin-left: 12vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+
+#r1quote_block8 {
+    margin-left: 16vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r1quote_block9 {
+    margin-left: 19vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r1quote_block10 {
+    margin-left: 39.5vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r1quote_block11 {
+    margin-left: 43.5vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r1quote_block12 {
+    margin-left: 42vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+
+#r1quote_block13 {
+    margin-left: 46vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+
+#r1quote_block14 {
+    margin-left: 54vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+
+#r1quote_block15 {
+    margin-left: 59vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+
+#r1quote_block16 {
+    margin-left: 62vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+
+#r1quote_block17 {
+    margin-left: 55vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+
+#r1quote_block18 {
+    margin-left: 49.5vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+
+#r1quote_block19 {
+    margin-left: 58vw;
+    margin-top: 47.5vh;
+    opacity: 0;
+}
+
+#r1quote_block20 {
+    margin-left: 66vw;
+    margin-top: 45vh;
+    opacity: 0;
+}
+
+#r1quote_block21 {
+    margin-left: 73vw;
+    margin-top: 42.5vh;
+    opacity: 0;
+}
+
+
+
+/* Image placements within the second pull quote */
+#loopvid2A {
+    margin-left: 6.5vw;
+    margin-top: 34.15vh;
+    opacity: 0;
+}
+
+#loopvid2B {
+    margin-left: 40.5vw;
+    margin-top: 19vh;
+    opacity: 0;
+}
+
+#loopvid2C {
+    margin-left: 73vw;
+    margin-top: 34vh;
+    opacity: 0;
+}
+
+/* Placements of the second row quote's text blocks */
+#r2quote_block1 {
+    margin-left: 20vw;
+    margin-top: 57vh;
+    opacity: 0;
+}
+
+#r2quote_block2 {
+    margin-left: 23.5vw;
+    margin-top: 54.5vh;
+    opacity: 0;
+}
+
+#r2quote_block3 {
+    margin-left: 28.5vw;
+    margin-top: 52vh;
+    opacity: 0;
+}
+
+#r2quote_block4 {
+    margin-left: 26vw;
+    margin-top: 49.5vh;
+    opacity: 0;
+}
+
+#r2quote_block5 {
+    margin-left: 30vw;
+    margin-top: 47vh;
+    opacity: 0;
+}
+
+#r2quote_block6 {
+    margin-left: 28vw;
+    margin-top: 44.5vh;
+    opacity: 0;
+}
+
+#r2quote_block7 {
+    margin-left: 30vw;
+    margin-top: 42vh;
+    opacity: 0;
+}
+
+#r2quote_block8 {
+    margin-left: 56.5vw;
+    margin-top: 19vh;
+    opacity: 0;
+}
+
+#r2quote_block9 {
+    margin-left: 61.5vw;
+    margin-top: 21.5vh;
+    opacity: 0;
+}
+
+#r2quote_block10 {
+    margin-left: 63.5vw;
+    margin-top: 24vh;
+    opacity: 0;
+}
+
+#r2quote_block11 {
+    margin-left: 67vw;
+    margin-top: 26.5vh;
+    opacity: 0;
+}
+
+#r2quote_block12 {
+    margin-left: 72vw;
+    margin-top: 29vh;
+    opacity: 0;
+}
+
+#r2quote_block13 {
+    margin-left: 73vw;
+    margin-top: 31.5vh;
+    opacity: 0;
+}
+
+#r2quote_block14 {
+    margin-left: 71vw;
+    margin-top: 34.5vh;
+    opacity: 0;
+}
+
+
+
+#loopvid3A {
+    margin-left: 4vw;
+    margin-top: 29.25vh;
+    opacity: 0;
+}
+
+#loopvid3B {
+    margin-left: 21.75vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#loopvid3C {
+    margin-left: 73vw;
+    margin-top: 21.5vh;
+    opacity: 0;
+}
+
+/* Placements of the first quote's text blocks */
+/* Remember, you added 20 here!! */
+#r3quote_block1 {
+    margin-left: 4vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+
+#r3quote_block2 {
+    margin-left: 6vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+
+#r3quote_block3 {
+    margin-left: 4vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+
+#r3quote_block4 {
+    margin-left: 8vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+
+#r3quote_block5 {
+    margin-left: 6vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+
+#r3quote_block6 {
+    margin-left: 8vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+
+#r3quote_block7 {
+    margin-left: 12vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+
+#r3quote_block8 {
+    margin-left: 16vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r3quote_block9 {
+    margin-left: 18vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r3quote_block10 {
+    margin-left: 36.35vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r3quote_block11 {
+    margin-left: 39vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r3quote_block12 {
+    margin-left: 42vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+
+#r3quote_block13 {
+    margin-left: 46vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+
+#r3quote_block14 {
+    margin-left: 54vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+
+#r3quote_block15 {
+    margin-left: 59vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+
+#r3quote_block16 {
+    margin-left: 62vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+
+#r3quote_block17 {
+    margin-left: 55vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+
+#r3quote_block18 {
+    margin-left: 49.5vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+
+#r3quote_block19 {
+    margin-left: 58vw;
+    margin-top: 47.5vh;
+    opacity: 0;
+}
+
+#r3quote_block20 {
+    margin-left: 66vw;
+    margin-top: 45vh;
+    opacity: 0;
+}
+
+#r3quote_block21 {
+    margin-left: 73vw;
+    margin-top: 42.5vh;
+    opacity: 0;
+}
