@@ -68,6 +68,7 @@ img {
     position: absolute;
     width: auto;
     max-height: 22.15vh;
+    /* max-width: 16vw; */
 }
 
 /* Stylization for the ten rows of text in the background */
@@ -207,8 +208,10 @@ img {
     position: absolute;
     text-transform: uppercase;
     font-size: 12px;
+    /* font-size: 0.8vw; */
     color: white;
     padding: 2px;
+    z-index: 1;
 }
 
 /* Image placements within the first pull quote */
@@ -220,13 +223,13 @@ img {
 }
 
 #loopvid1B {
-    margin-left: 23.5vw;
+    margin-left: 21.75vw;
     margin-top: 70vh;
     opacity: 0;
 }
 
 #loopvid1C {
-    margin-left: 71vw;
+    margin-left: 73vw;
     margin-top: 19.5vh;
     opacity: 0;
 }
@@ -282,19 +285,19 @@ img {
 }
 
 #r1quote_block9 {
-    margin-left: 19vw;
+    margin-left: 18vw;
     margin-top: 70vh;
     opacity: 0;
 }
 
 #r1quote_block10 {
-    margin-left: 39.5vw;
+    margin-left: 37.45vw;
     margin-top: 70vh;
     opacity: 0;
 }
 
 #r1quote_block11 {
-    margin-left: 43.5vw;
+    margin-left: 39.5vw;
     margin-top: 67.5vh;
     opacity: 0;
 }
@@ -382,7 +385,7 @@ img {
 
 /* Placements of the second row quote's text blocks */
 #r2quote_block1 {
-    margin-left: 21vw;
+    margin-left: 20vw;
     margin-top: 57vh;
     opacity: 0;
 }
