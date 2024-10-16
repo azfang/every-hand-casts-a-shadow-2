@@ -1,0 +1,567 @@
+/* Image placements within the first pull quote */
+/* Remember, you added 20 here!! */
+#loopvid1A {
+    margin-left: 4vw;
+    margin-top: 27.25vh;
+    opacity: 0;
+}
+
+#loopvid1B {
+    /* margin-left: 21.5vw; */
+    margin-left: 22.95vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#loopvid1C {
+    margin-left: 73vw;
+    margin-top: 19.5vh;
+    opacity: 0;
+}
+
+/* Placements of the first quote's text blocks */
+/* Remember, you added 20 here!! */
+#r1quote_block1 {
+    margin-left: 4vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+
+#r1quote_block2 {
+    margin-left: 6vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+
+#r1quote_block3 {
+    margin-left: 4vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+
+#r1quote_block4 {
+    margin-left: 8vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+
+#r1quote_block5 {
+    margin-left: 6vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+
+#r1quote_block6 {
+    margin-left: 8vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+
+#r1quote_block7 {
+    margin-left: 12vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+
+#r1quote_block8 {
+    margin-left: 16vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r1quote_block9 {
+    /* margin-left: 18vw; */
+    margin-left: 19vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r1quote_block10 {
+    margin-left: 38.5vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r1quote_block11 {
+    margin-left: 39.5vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r1quote_block12 {
+    margin-left: 42vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+
+#r1quote_block13 {
+    margin-left: 46vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+
+#r1quote_block14 {
+    margin-left: 54vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+
+#r1quote_block15 {
+    margin-left: 59vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+
+#r1quote_block16 {
+    margin-left: 62vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+
+#r1quote_block17 {
+    margin-left: 55vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+
+#r1quote_block18 {
+    margin-left: 49.5vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+
+#r1quote_block19 {
+    margin-left: 58vw;
+    margin-top: 47.5vh;
+    opacity: 0;
+}
+
+#r1quote_block20 {
+    margin-left: 66vw;
+    margin-top: 45vh;
+    opacity: 0;
+}
+
+#r1quote_block21 {
+    margin-left: 73vw;
+    margin-top: 42.5vh;
+    opacity: 0;
+}
+
+
+
+/* Image placements within the second pull quote */
+#loopvid2A {
+    margin-left: 7.85vw;
+    margin-top: 34.35vh;
+    opacity: 0;
+}
+
+/* #loopvid2B {
+    margin-left: 40.5vw;
+    margin-top: 19vh;
+    opacity: 0;
+} */
+
+#loopvid2B {
+    margin-left: 41.85vw;
+    margin-top: 19vh;
+    opacity: 0;
+}
+
+#loopvid2C {
+    margin-left: 76vw;
+    margin-top: 34vh;
+    opacity: 0;
+}
+
+/* Placements of the second row quote's text blocks */
+#r2quote_block1 {
+    margin-left: 18vw;
+    margin-top: 57vh;
+    opacity: 0;
+}
+
+#r2quote_block2 {
+    margin-left: 23.5vw;
+    margin-top: 54.5vh;
+    opacity: 0;
+}
+
+#r2quote_block3 {
+    margin-left: 28.5vw;
+    margin-top: 52vh;
+    opacity: 0;
+}
+
+#r2quote_block4 {
+    margin-left: 26vw;
+    margin-top: 49.5vh;
+    opacity: 0;
+}
+
+#r2quote_block5 {
+    margin-left: 30vw;
+    margin-top: 47vh;
+    opacity: 0;
+}
+
+#r2quote_block6 {
+    margin-left: 28vw;
+    margin-top: 44.5vh;
+    opacity: 0;
+}
+
+#r2quote_block7 {
+    margin-left: 30vw;
+    margin-top: 42vh;
+    opacity: 0;
+}
+
+#r2quote_block8 {
+    margin-left: 57.5vw;
+    margin-top: 19vh;
+    opacity: 0;
+}
+
+#r2quote_block9 {
+    margin-left: 61.5vw;
+    margin-top: 21.5vh;
+    opacity: 0;
+}
+
+#r2quote_block10 {
+    margin-left: 63.5vw;
+    margin-top: 24vh;
+    opacity: 0;
+}
+
+#r2quote_block11 {
+    margin-left: 67vw;
+    margin-top: 26.5vh;
+    opacity: 0;
+}
+
+#r2quote_block12 {
+    margin-left: 72vw;
+    margin-top: 29vh;
+    opacity: 0;
+}
+
+#r2quote_block13 {
+    margin-left: 73vw;
+    margin-top: 31.5vh;
+    opacity: 0;
+}
+
+#r2quote_block14 {
+    margin-left: 71vw;
+    margin-top: 34.5vh;
+    opacity: 0;
+}
+
+
+
+#loopvid3A {
+    margin-left: 2vw;
+    margin-top: 55.5vh;
+    opacity: 0;
+}
+
+#loopvid3B {
+    margin-left: 20vw;
+    margin-top: 24.75vh;
+    opacity: 0;
+}
+
+#loopvid3C {
+    margin-left: 73.75vw;
+    margin-top: 40vh;
+    opacity: 0;
+}
+
+/* Placements of the first quote's text blocks */
+/* Remember, you added 20 here!! */
+#r3quote_block1 {
+    margin-left: 13.75vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+
+#r3quote_block2 {
+    margin-left: 8vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+
+#r3quote_block3 {
+    margin-left: 12vw;
+    margin-top: 47.5vh;
+    opacity: 0;
+}
+
+#r3quote_block4 {
+    margin-left: 3vw;
+    margin-top: 45vh;
+    opacity: 0;
+}
+
+#r3quote_block5 {
+    margin-left: 35.5vw;
+    margin-top: 25vh;
+    opacity: 0;
+}
+
+#r3quote_block6 {
+    margin-left: 43vw;
+    margin-top: 27.5vh;
+    opacity: 0;
+}
+
+#r3quote_block7 {
+    margin-left: 49vw;
+    margin-top: 30vh;
+    opacity: 0;
+}
+
+#r3quote_block8 {
+    margin-left: 52vw;
+    margin-top: 27.5vh;
+    opacity: 0;
+}
+
+#r3quote_block9 {
+    margin-left: 57vw;
+    margin-top: 30vh;
+    opacity: 0;
+}
+
+#r3quote_block10 {
+    margin-left: 60vw;
+    margin-top: 32.25vh;
+    opacity: 0;
+}
+
+#r3quote_block11 {
+    margin-left: 65vw;
+    margin-top: 35vh;
+    opacity: 0;
+}
+
+#r3quote_block12 {
+    margin-left: 69vw;
+    margin-top: 37.5vh;
+    opacity: 0;
+}
+
+#r3quote_block13 {
+    margin-left: 67vw;
+    margin-top: 40vh;
+    opacity: 0;
+}
+
+/* Placements of the fourth quote's text blocks */
+#loopvid4A {
+    margin-left: 30.5vw;
+    margin-top: 20vh;
+    opacity: 0;
+}
+
+#loopvid4B {
+    margin-left: 54vw;
+    margin-top: 47.5vh;
+    opacity: 0;
+}
+
+#loopvid4C {
+    margin-left: 76vw;
+    margin-top: 62.75vh;
+    opacity: 0;
+}
+
+#r4quote_block1 {
+    margin-left: 18vw;
+    margin-top: 37.5vh;
+    opacity: 0;
+}
+
+#r4quote_block2 {
+    margin-left: 23.25vw;
+    margin-top: 40vh;
+    opacity: 0;
+}
+
+#r4quote_block3 {
+    margin-left: 46vw;
+    margin-top: 40vh;
+    opacity: 0;
+}
+
+#r4quote_block4 {
+    margin-left: 50vw;
+    margin-top: 42.5vh;
+    opacity: 0;
+}
+
+#r4quote_block5 {
+    margin-left: 53vw;
+    margin-top: 45vh;
+    opacity: 0;
+}
+
+#r4quote_block6 {
+    margin-left: 49vw;
+    margin-top: 47.5vh;
+    opacity: 0;
+}
+
+#r4quote_block7 {
+    margin-left: 69.75vw;
+    margin-top: 47.5vh;
+    opacity: 0;
+}
+
+#r4quote_block8 {
+    margin-left: 73vw;
+    margin-top: 50vh;
+    opacity: 0;
+}
+
+#r4quote_block9 {
+    margin-left: 80vw;
+    margin-top: 52.5vh;
+    opacity: 0;
+}
+
+#r4quote_block10 {
+    margin-left: 82vw;
+    margin-top: 55vh;
+    opacity: 0;
+}
+
+#r4quote_block11 {
+    margin-left: 78vw;
+    margin-top: 57.5vh;
+    opacity: 0;
+}
+
+#r4quote_block12 {
+    margin-left: 76vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+
+/* Placements of the seventh quote's text blocks */
+#loopvid7A {
+    margin-left: 21vw;
+    margin-top: 35vh;
+    opacity: 0;
+}
+
+#loopvid7B {
+    margin-left: 48.5vw;
+    margin-top: 72.5vh;
+    opacity: 0;
+}
+
+#loopvid7C {
+    margin-left: 83vw;
+    margin-top: 72.5vh;
+    opacity: 0;
+}
+
+#r7quote_block1 {
+    margin-left: 15vw;
+    margin-top: 57.75vh;
+    opacity: 0;
+}
+
+#r7quote_block2 {
+    margin-left: 18vw;
+    margin-top: 60vh;
+    opacity: 0;
+}
+
+#r7quote_block3 {
+    margin-left: 20vw;
+    margin-top: 62.5vh;
+    opacity: 0;
+}
+
+#r7quote_block4 {
+    margin-left: 25vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+
+#r7quote_block5 {
+    margin-left: 20vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r7quote_block6 {
+    margin-left: 28vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r7quote_block7 {
+    margin-left: 30vw;
+    margin-top: 72.5vh;
+    opacity: 0;
+}
+
+#r7quote_block8 {
+    margin-left: 33vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r7quote_block9 {
+    margin-left: 41vw;
+    margin-top: 72.5vh;
+    opacity: 0;
+}
+
+#r7quote_block10 {
+    margin-left: 63.75vw;
+    margin-top: 72.5vh;
+    opacity: 0;
+}
+
+#r7quote_block11 {
+    margin-left: 66vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r7quote_block12 {
+    margin-left: 68vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r7quote_block13 {
+    margin-left: 71vw;
+    margin-top: 65vh;
+    opacity: 0;
+}
+
+#r7quote_block14 {
+    margin-left: 78vw;
+    margin-top: 67.5vh;
+    opacity: 0;
+}
+
+#r7quote_block15 {
+    margin-left: 80vw;
+    margin-top: 70vh;
+    opacity: 0;
+}
+
+#r7quote_block16 {
+    margin-left: 77.5vw;
+    margin-top: 72.5vh;
+    opacity: 0;
+}
