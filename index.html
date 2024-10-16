@@ -3,66 +3,33 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Motions for Somebody Else</title>
+    <title>every hand casts a shadow</title>
     <link href="style.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
     <script src="jquery.js"></script>
     <script src="main.js"></script>
     <script src="animation1.js"></script>
     <script src="animation2.js"></script>
     <script src="animation3.js"></script>
+    <script src="animation4.js"></script>
+    <script src="animation7.js"></script>
 </head>
 
 <body onLoad="scrollDiv_init()">
-    <div id="intro">
-        <p style="background-color: black" class="titletxt" >loop-loop-loop-loop-loop-loop-loop-loop.com</p>
-    </div>
-    <div id="countdown">
-        <p style="background-color: black" class="titletxt" >Next stanza in <span id="countdown-demo"></span></p>
-     </div>
-    <div id="synopsis">
-       <p style="background-color: black" class="titletxt" >movements forward, backward, </p>
-    </div>
-     <div id="credits">
-        <p style="background-color: black" class="titletxt" >Designed and developed by Amy Fang</p>
-    </div>
-    <div>
-        <!-- <p style="background-color: black" class="quotetxt" id="clickhere1">1</p> -->
-    </div>
     <div id="r1quote">
-        <img id="loopvid1A" src="Loop2.gif">
-        <!-- <p style="background-color: black" class="quotetxt" id="r1quote_block1">I decided to work</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block2">against my fluency</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block3">I was tired of</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block4">my voice, how it stressed</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block5">its quality</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block6">as an object with transparent darks</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block7">This is a recording.</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block8">This living hand reached</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block9">in error.</p>
-        <img id="loopvid1B" src="Loop2.gif">
-        <p style="background-color: black" class="quotetxt" id="r1quote_block10">I hold it toward</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block11">you, measuring</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block12">the time before</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block13">the waves return from paper walls</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block14">across the lake. hang up</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block15">and try again with</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block16">poor opacity, with feeling</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block17">there must be a way</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block18">to speak at a canted angle</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block19">of enabling failures</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block20">the little collisions,</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block21">the path of decay</p> -->
-        <p style="background-color: black" class="quotetxt" id="r1quote_block1">how to exhaust oneself:</p>
+        <!-- Link to p5.js sketch: https://editor.p5js.org/amyfang123/sketches/0u-AcJWZu -->
+        <img id="loopvid1A" src="Gifs/Loop2.gif">
+        <p style="background-color: black" class="quotetxt" id="r1quote_block1">a figure in motion:</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block2">I have a fear, i’ve realized,</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block3">of stillness.</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block4">I am compelled</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block5">towards action</p>
+        <p style="background-color: black" class="quotetxt" id="r1quote_block5">toward action</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block6">even in the slight gestures of my body;</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block7">there’s a desire</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block8">(in some ways, a compulsion)</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block9">to find</p>
-        <img id="loopvid1B" src="Loop2.gif">
-        <p style="background-color: black" class="quotetxt" id="r1quote_block10">myself in perpetual motion.</p>
+        <img id="loopvid1B" src="Gifs/Loop2.gif">
+        <p style="background-color: black" class="quotetxt" id="r1quote_block10">myself in perpetual direction.</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block11">I am drawn to</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block12">the thought of trailing one’s</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block13">finger up and down a screen,</p>
@@ -70,441 +37,494 @@
         <p style="background-color: black" class="quotetxt" id="r1quote_block15">and fall, rise and fall.</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block16">each morning i perform these</p>
         <p style="background-color: black" class="quotetxt" id="r1quote_block17">gentle choreographies, imitating</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block18">and posing and simulating</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block19">of enabling failures</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block20">my way through actions. i paint a living hand</p>
-        <p style="background-color: black" class="quotetxt" id="r1quote_block21">raised in error.</p>
-        <img id="loopvid1C" src="Loop2.gif">
+        <p style="background-color: black" class="quotetxt" id="r1quote_block18">and simulating, always posing,</p>
+        <p style="background-color: black" class="quotetxt" id="r1quote_block19">never quite getting these gestures</p>
+        <p style="background-color: black" class="quotetxt" id="r1quote_block20">right. i paint a living hand</p>
+        <p style="background-color: black" class="quotetxt" id="r1quote_block21">raised in error, its rise and fall—</p>
+        <img id="loopvid1C" src="Gifs/Loop2.gif">
     </div>
     <div id="r2quote">
-        <img id="loopvid2A" src="Dance2_Compressed.gif">
-        <p style="background-color: black" class="quotetxt" id="r2quote_block1">The cursor dances</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block2">for me — it pirouettes</p>
+        <img id="loopvid2A" src="Gifs/CPainting-2.gif">
+        <p style="background-color: black" class="quotetxt" id="r2quote_block1">a figure in motion: the cursor</p>
+        <p style="background-color: black" class="quotetxt" id="r2quote_block2">dances for me — it pirouettes</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block3">from point to point,</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block4">each line unfolding,</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block5">collapsing in on itself.</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block6">I lack the ease to move</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block7">freely, gracefully, with my own limbs,</p>
-        <img id="loopvid2B" src="Dance2_Compressed.gif">
+        <img id="loopvid2B" src="Gifs/CPainting-2.gif">
         <p style="background-color: black" class="quotetxt" id="r2quote_block8">though I suppose</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block9">I've had an entire lifetime</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block10">to gesticulate</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block11">to learn to perform</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block12">its myriad convulsions, frantic</p>
         <p style="background-color: black" class="quotetxt" id="r2quote_block13">and frenetic.</p>
-        <img id="loopvid2C" src="Dance2_Compressed.gif">
-        <!-- <img id="loopvid2A" src="Gifs/Dance2.gif">
-        <p style="background-color: black" class="quotetxt" id="r2quote_block1">This movement</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block2">from the ground</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block3">to cloud of waves</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block4">decaying slowly on plucked strings is</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block5">lightning.</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block6">i don't know</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block7">how else to say it without writing.</p>
-        <img id="loopvid2B" src="Dance2_Compressed.gif">
-        <p style="background-color: black" class="quotetxt" id="r2quote_block8">maybe if you let</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block9">the false starts stand,</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block10">stand in for symbols near collapse, or</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block11">let collapsing</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block12">symbolize the little clearing loving</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block13">is. maybe then</p>
-        <img id="loopvid2C" src="Dance2_Compressed.gif"> -->
+        <img id="loopvid2C" src="Gifs/CPainting-2.gif">
     </div>
-    <!-- <div id="r2quote">
-        <img id="loopvid2A" src="Gifs/Dance2.gif">
-        <p style="background-color: black" class="quotetxt" id="r2quote_block1">"the cursor</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block2">dances for me,"</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block3">i wrote</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block4">three years ago.</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block5">enter the digital self.</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block6">i lack the ease to move</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block7">freely, gracefully, with my own limbs,</p>
-        <img id="loopvid2B" src="Gifs/Dance2.gif">
-        <p style="background-color: black" class="quotetxt" id="r2quote_block8">though I suppose</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block9">I've had</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block10">an entire lifetime</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block11">to learn to perform</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block12">its myriad convulsions, frantic</p>
-        <p style="background-color: black" class="quotetxt" id="r2quote_block13">and frenetic.</p>
-        <img id="loopvid2C" src="Gifs/Dance2.gif">
-    </div> -->
     <div id="r3quote">
-        <img id="loopvid3A" src="Gifs/Touch_1.gif">
-        <p style="background-color: black" class="quotetxt" id="r3quote_block1">how to exhaust oneself:</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block2">I have a fear, i’ve realized,</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block3">of stillness.</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block4">I am compelled</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block5">towards action</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block6">even in the slight gestures of my body;</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block7">there’s a desire</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block8">(in some ways, a compulsion)</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block9">to find</p>
-        <img id="loopvid3B" src="Gifs/Touch_1.gif">
-        <p style="background-color: black" class="quotetxt" id="r3quote_block10">myself in perpetual motion.</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block11">I am drawn to</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block12">the thought of trailing one’s</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block13">finger up and down a screen,</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block14">the cadence of its rise</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block15">and fall, rise</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block16">and fall, rise and fall.</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block17">each morning i perform these</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block18">gentle choreographies, imitating</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block19">and posing and simulating</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block20">my way through actions. i paint</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block21">with broad strokes, a wilting peony—</p>
-        <img id="loopvid3C" src="Gifs/Touch_1.gif">
+        <img id="loopvid3A" src="Gifs/CPainting-3.gif">
+        <p style="background-color: black" class="quotetxt" id="r3quote_block1">a figure in motion:</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block2">my mother's father</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block3">was the one who taught me</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block4">the steadiness of a singular stroke</p>
+        <img id="loopvid3B" src="Gifs/CPainting-3.gif">
+        <p style="background-color: black" class="quotetxt" id="r3quote_block5">how to produce it tenderly.</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block6">my mother's mother</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block7">taught me</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block8">to memorize lines</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block9">of poetry,</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block10">my fingers clasped</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block11">behind my back</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block12">lest they tremble,</p>
+        <p style="background-color: black" class="quotetxt" id="r3quote_block13">give me away.</p>
+        <img id="loopvid3C" src="Gifs/CPainting-3.gif">
     </div>
-    <!-- <div id="r3quote">
-        <img id="loopvid3A" src="Gifs/Kiss_1.gif">
-        <p style="background-color: black" class="quotetxt" id="r3quote_block1">"the cursor</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block2">dances for me,"</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block3">i wrote</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block4">three years ago.</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block5">enter the digital body.</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block6">i lack the ease to move</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block7">freely, gracefully, with my own limbs,</p>
-        <img id="loopvid3B" src="Gifs/Kiss_1.gif">
-        <p style="background-color: black" class="quotetxt" id="r3quote_block8">though I suppose</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block9">I've had</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block10">an entire lifetime</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block11">to learn to perform</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block12">its motions. frantic</p>
-        <p style="background-color: black" class="quotetxt" id="r3quote_block13">and frenetic,</p>
-        <img id="loopvid3C" src="Gifs/Kiss_1.gif">
-    </div> -->
+    <div id="r4quote">
+        <p style="background-color: black" class="quotetxt" id="r4quote_block1">A figure in motion:</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block2">I’ve left marks</p>
+        <img id="loopvid4A" src="Gifs/CPainting-4.gif">
+        <p style="background-color: black" class="quotetxt" id="r4quote_block3">Upon the page,</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block4">The surface</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block5">you've rendered</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block6">as wildly</p>
+        <img id="loopvid4B" src="Gifs/CPainting-4.gif">
+        <p style="background-color: black" class="quotetxt" id="r4quote_block7">incomprehensible.</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block8">there is some sort of dialogue,</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block9">i imagine, trails</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block10">i must make, rubbed raw —</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block11">desire paths</p>
+        <p style="background-color: black" class="quotetxt" id="r4quote_block12">leaving impressions on the skin —</p>
+        <img id="loopvid4C" src="Gifs/CPainting-4.gif">
+    </div>
+    <div id="r7quote">
+        <img id="loopvid7A" src="Gifs/CPainting-7.gif">
+        <p style="background-color: black" class="quotetxt" id="r7quote_block1">a figure in motion: the hand</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block2">grasps mine</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block3">to trace the outlines</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block4">of some imagined</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block5">past, one that had</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block6">bound you</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block7">and i, a line</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block8">severed years ago.</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block9">i lack the ease</p>
+        <img id="loopvid7B" src="Gifs/CPainting-7.gif">
+        <p style="background-color: black" class="quotetxt" id="r7quote_block10">as i did back then,</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block11">the body</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block12">the hand as one</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block13">an entire lifetime</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block14">to learn to forget</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block15">its motions. slow</p>
+        <p style="background-color: black" class="quotetxt" id="r7quote_block16">and steady</p>
+        <img id="loopvid7C" src="Gifs/CPainting-7.gif">
+    </div>
     <div class="bodycontent">
         <div class="row1">
-            <!-- <p style="background-color: black" class="titletxt" id="titleblock1">[ 1 OF 9 ]</p> -->
             <div id="autoscrollmotion1" class="r1content">
                 <!-- Images on Nonlinear Time -->
-                <p>
-                    <span>An image of a thin line</span>
-                    <br>
-                    <span>Curling itself into a loose spiral</span>
-                    <br>
-                    <span">Set against light yellow</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of anger</span>
-                    <br>
-                    <span>Scrawled across concrete</span>
-                    <br>
-                    <span">In an unknown urban city</span>
-                    <br>
-                    <span>With the text, "No cops no jails"</span>
-                </p>
-                <p>
-                    <span>An image of a hand</span>
-                    <br>
-                    <span>Laying a pointer finger</span>
-                    <br>
-                    <span">On the rings of a tree</span>
-                    <br>
-                    <span>With the text, "This is where it happened."</span>
-                </p>
-                <p>
-                    <span>An image of suns (drawn)</span>
-                    <br>
-                    <span>Ascending, one by one,</span>
-                    <br>
-                    <span">Into the warmer tones of a blackened morning</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a clock</span>
-                    <br>
-                    <span>Designed without hours</span>
-                    <br>
-                    <span">On a flat white backdrop</span>
-                    <br>
-                    <span>With the word "Now" repeated on its surface</span>
-                </p>
-                <p>
-                    <span>An image of a landscape</span>
-                    <br>
-                    <span>Light streaks reflected</span>
-                    <br>
-                    <span">On the sand, in the sea</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a spider</span>
-                    <br>
-                    <span>Swimming</span>
-                    <br>
-                    <span">Suspended in water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a quote</span>
-                    <br>
-                    <span>By Charles Eames</span>
-                    <br>
-                    <span">Against the color orange</span>
-                    <br>
-                    <span>With the text, "Take your pleasure seriously"</span>
-                </p>
-                <p>
-                    <span>An image of human figures caught in motion</span>
-                    <br>
-                    <span>Suspended in air</span>
-                    <br>
-                    <span">On an unending road</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of clouds</span>
-                    <br>
-                    <span>Filling a billboard</span>
-                    <br>
-                    <span">Within a prairie field</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of silver waves trailing from a boat</span>
-                    <br>
-                    <span>Forming pleats</span>
-                    <br>
-                    <span">Within silver water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of metal rings</span>
-                    <br>
-                    <span>Simulating ripples around stones</span>
-                    <br>
-                    <span">Set within a creek</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a dancer</span>
-                    <br>
-                    <span>Surrounded by notations of her movements</span>
-                    <br>
-                    <span">In black and white</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>A image of two children</span>
-                    <br>
-                    <span>Dancing and spinning in circles around</span>
-                    <br>
-                    <span">A tree in a field</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of lovers</span>
-                    <br>
-                    <span>Locked into an embrace</span>
-                    <br>
-                    <span">In each other's arms</span>
-                    <br>
-                    <span>With the text, "All the time, since the beginning."</span>
-                </p>
-                <p>
-                    <span>A image of a field</span>
-                    <br>
-                    <span>Of grasses swaying and bending</span>
-                    <br>
-                    <span">Through the wind</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a couple</span>
-                    <br>
-                    <span>On a motorbike</span>
-                    <br>
-                    <span">Coursing through a tunnel, lit to be green</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a young boy</span>
-                    <br>
-                    <span>Running through yellow</span>
-                    <br>
-                    <span">Wheat fields, splitting like a river</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
+                <div>
+                    <p>
+                        <span>An image of willowy human figures</span>
+                        <br>
+                        <span>On the sand, by the sea</span>
+                        <br>
+                        <span>Using dappled sunlight</span>
+                        <br>
+                        <span>Rendered by a young boy</span>
+                    </p>
+                    <p>
+                        <span>An image of lovers</span>
+                        <br>
+                        <span>Through the wind</span>
+                        <br>
+                        <span>Using colored dyes</span>
+                        <br>
+                        <span>Rendered by a young boy</span>
+                    </p>
+                    <p>
+                        <span>An image of persimmons</span>
+                        <br>
+                        <span>In a boundless space</span>
+                        <br>
+                        <span>>Using oil paints</span>
+                        <br>
+                        <span>Rendered in a single gesture</span>
+                    </p>
+                    <p>
+                        <span>An image of stone</span>
+                        <br>
+                        <span>Suspended underwater</span>
+                        <br>
+                        <span>Using a feeling of longing</span>
+                        <br>
+                        <span>Rendered by a young boy</span>
+                    </p>
+                    <p>
+                        <span>An image of a single tree in a field</span>
+                        <br>
+                        <span>On the sand, by the sea</span>
+                        <br>
+                        <span>Using pixels</span>
+                        <br>
+                        <span>Rendered by friends and enemies</span>
+                    </p>
+                    <p>
+                        <span>An image of peonies</span>
+                        <br>
+                        <span>Painted on paper</span>
+                        <br>
+                        <span>Using pixels</span>
+                        <br>
+                        <span>Rendered by a slow-moving hand</span>
+                    </p>
+                    <p>
+                        <span>An image of a basket of persimmons</span>
+                        <br>
+                        <span>In a boundless space</span>
+                        <br>
+                        <span>Using yellow acrylic paint</span>
+                        <br>
+                        <span>Rendered by someone in a hurry</span>
+                    </p>
+                    <p>
+                        <span>An image of branches</span>
+                        <br>
+                        <span>Suspended underwater</span>
+                        <br>
+                        <span>Using oil paints</span>
+                        <br>
+                        <span>Rendered by friends</span>
+                    </p>
+                    <p>
+                        <span>An image of clouds</span>
+                        <br>
+                        <span>In a body of water</span>
+                        <br>
+                        <span>Using fingers stained by pastel</span>
+                        <br>
+                        <span>Rendered by friends and enemies</span>
+                    </p>
+                    <p>
+                        <span>An image of persimmons</span>
+                        <br>
+                        <span>Suspended on a screen</span>
+                        <br>
+                        <span>Using yellow acrylic paint</span>
+                        <br>
+                        <span>Rendered by friends</span>
+                    </p>
+                    <p>
+                        <span>An image of peonies</span>
+                        <br>
+                        <span>Suspended on a screen</span>
+                        <br>
+                        <span>Using graphite</span>
+                        <br>
+                        <span>Rendered by people who sleep very little</span>
+                    </p>
+                    <p>
+                        <span>An image of mountains in a far-off land</span>
+                        <br>
+                        <span>Locked in an embrace</span>
+                        <br>
+                        <span>Using indigo inks</span>
+                        <br>
+                        <span>Rendered by friends</span>
+                    </p>
+                    <p>
+                        <span>An image of plum trees</span>
+                        <br>
+                        <span>On a flat white backdrop</span>
+                        <br>
+                        <span></span>Using a fading green light</span>
+                        <br>
+                        <span>Rendered in a single gesture</span>
+                    </p>
+                    <p>
+                        <span>A image of stone</span>
+                        <br>
+                        <span>On the sand, by the sea</span>
+                        <br>
+                        <span>Using fingers stained by pastel</span>
+                        <br>
+                        <span>Rendered by friends</span>
+                    </p>
+                    <p>
+                        <span>An image of peonies</span>
+                        <br>
+                        <span>Suspended on a screen</span>
+                        <br>
+                        <span>Using a fading green light</span>
+                        <br>
+                        <span>Rendered by would-be lovers</span>
+                    </p>
+                    <p>
+                        <span>A image of a dancer</span>
+                        <br>
+                        <span>In a boundless space</span>
+                        <br>
+                        <span>Using pixels</span>
+                        <br>
+                        <span>Rendered by a slow-moving hand</span>
+                    </p>
+                    <p>
+                        <span>An image of grasses swaying in the wind</span>
+                        <br>
+                        <span>Caught in motion</span>
+                        <br>
+                        <span>Using oil paints</span>
+                        <br>
+                        <span>Rendered in a fluid motion</span>
+                    </p>
+                    <p>
+                        <span>An image of an unending road</span>
+                        <br>
+                        <span>On a flat white backdrop</span>
+                        <br>
+                        <span>Using colored dyes</span>
+                        <br>
+                        <span>Rendered by friends and enemies</span>
+                    </p>
+                    <p>
+                        <span>An image of peonies</span>
+                        <br>
+                        <span>Captured in the daylight</span>
+                        <br>
+                        <span>Using yellow acrylic paint</span>
+                        <br>
+                        <span>Rendered in a fluid motion</span>
+                    </p>
+                    <p>
+                        <span>An image of a river</span>
+                        <br>
+                        <span>Through the wind</span>
+                        <br>
+                        <span>Using colored dyes</span>
+                        <br>
+                        <span>Rendered by a young boy</span>
+                    </p>
+                    <p>
+                        <span>An image of stone</span>
+                        <br>
+                        <span>Painted on paper</span>
+                        <br>
+                        <span>Using yellow acrylic paint</span>
+                        <br>
+                        <span>Rendered by a slow-moving hand</span>
+                    </p>
+                    <p>
+                        <span>An image of clouds</span>
+                        <br>
+                        <span>Suspended underwater</span>
+                        <br>
+                        <span>Using only black and white paints</span>
+                        <br>
+                        <span>Rendered by a young boy</span>
+                        <br>
+                    </p>
+            </div>
                 <!-- end of section -->
             </div>
         </div>
         <div class="row2">
             <div id="autoscrollmotion2" class="r2content">
                 <p>
-                    <span>An image of a thin line</span>
+                    <span>An image of branches</span>
                     <br>
-                    <span>Curling itself into a loose spiral</span>
+                    <span>In a boundless space</span>
                     <br>
-                    <span">Set against light yellow</span>
+                    <span>Using a fading green light</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a fluid motion</span>
                 </p>
                 <p>
-                    <span>An image of anger</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>Scrawled across concrete</span>
+                    <span>In a boundless space</span>
                     <br>
-                    <span">In an unknown urban city</span>
+                    <span>Using graphite</span>
                     <br>
-                    <span>With the text, "No cops no jails"</span>
+                    <span>Rendered by people who sleep very little</span>
                 </p>
                 <p>
-                    <span>An image of a hand</span>
+                    <span>An image of branches</span>
                     <br>
-                    <span>Laying a pointer finger</span>
+                    <span>In a body of water</span>
                     <br>
-                    <span">On the rings of a tree</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With the text, "This is where it happened."</span>
+                    <span>Rendered by friends</span>
                 </p>
                 <p>
-                    <span>An image of suns (drawn)</span>
+                    <span>An image of a river</span>
                     <br>
-                    <span>Ascending, one by one,</span>
+                    <span>Composed in a fervor</span>
                     <br>
-                    <span">Into the warmer tones of a blackened morning</span>
+                    <span>Using dappled sunlight</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered strangers</span>
                 </p>
                 <p>
-                    <span>An image of a clock</span>
+                    <span>An image of willowy human figures</span>
                     <br>
-                    <span>Designed without hours</span>
+                    <span>Locked in an embrace</span>
                     <br>
-                    <span">On a flat white backdrop</span>
+                    <span>Using only black and white paints</span>
                     <br>
-                    <span>With the word "Now" repeated on its surface</span>
+                    <span>Rendered by would-be lovers</span>
                 </p>
                 <p>
-                    <span>An image of a landscape</span>
+                    <span>An image of persimmons</span>
                     <br>
-                    <span>Light streaks reflected</span>
+                    <span>On a flat white backdrop</span>
                     <br>
-                    <span">On the sand, in the sea</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a fluid motion</span>
                 </p>
                 <p>
-                    <span>An image of a spider</span>
+                    <span>An image of a single tree in a field</span>
                     <br>
-                    <span>Swimming</span>
+                    <span>Composed in a fervor</span>
                     <br>
-                    <span">Suspended in water</span>
+                    <span>Using a fading green light</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by people who sleep very little</span>
                 </p>
                 <p>
-                    <span>An image of a quote</span>
+                    <span>An image of grasses swaying in the wind</span>
                     <br>
-                    <span>By Charles Eames</span>
+                    <span>On a flat white backdrop</span>
                     <br>
-                    <span">Against the color orange</span>
+                    <span>Using oil paints</span>
                     <br>
-                    <span>With the text, "Take your pleasure seriously"</span>
+                    <span>Rendered bya slow-moving hand</span>
                 </p>
                 <p>
-                    <span>An image of human figures caught in motion</span>
+                    <span>An image of leaves caught in motion</span>
                     <br>
-                    <span>Suspended in air</span>
+                    <span>In a body of water</span>
                     <br>
-                    <span">On an unending road</span>
+                    <span>Using only black and white paints</span>
                     <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of clouds</span>
-                    <br>
-                    <span>Filling a billboard</span>
-                    <br>
-                    <span">Within a prairie field</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of silver waves trailing from a boat</span>
-                    <br>
-                    <span>Forming pleats</span>
-                    <br>
-                    <span">Within silver water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of metal rings</span>
-                    <br>
-                    <span>Simulating ripples around stones</span>
-                    <br>
-                    <span">Set within a creek</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a dancer</span>
-                    <br>
-                    <span>Surrounded by notations of her movements</span>
-                    <br>
-                    <span">In black and white</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>A image of two children</span>
-                    <br>
-                    <span>Dancing and spinning in circles around</span>
-                    <br>
-                    <span">A tree in a field</span>
-                    <br>
-                    <span>With no text</span>
+                    <span>Rendered by people who sleep very little</span>
                 </p>
                 <p>
                     <span>An image of lovers</span>
                     <br>
-                    <span>Locked into an embrace</span>
+                    <span>Caught in motion</span>
                     <br>
-                    <span">In each other's arms</span>
+                    <span>Using yellow acrylic paint</span>
                     <br>
-                    <span>With the text, "All the time, since the beginning."</span>
+                    <span>Rendered by friends</span>
                 </p>
                 <p>
-                    <span>A image of a field</span>
+                    <span>An image of branches</span>
                     <br>
-                    <span>Of grasses swaying and bending</span>
+                    <span>Locked in an embrace</span>
                     <br>
-                    <span">Through the wind</span>
+                    <span>Using watercolors</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a slow-moving hand</span>
                 </p>
                 <p>
-                    <span>An image of a couple</span>
+                    <span>An image of plum trees</span>
                     <br>
-                    <span>On a motorbike</span>
+                    <span>Caught in motion</span>
                     <br>
-                    <span">Coursing through a tunnel, lit to be green</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by would-be lovers</span>
                 </p>
                 <p>
-                    <span>An image of a young boy</span>
+                    <span>An image of plum trees</span>
                     <br>
-                    <span>Running through yellow</span>
+                    <span>Caught in motion</span>
                     <br>
-                    <span">Wheat fields, splitting like a river</span>
+                    <span>Using graphite</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered people who have never met</span>
+                </p>
+                <p>
+                    <span>A image of silver waves</span>
+                    <br>
+                    <span>On a flat white backdrop</span>
+                    <br>
+                    <span>Using indigo inks</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>In a body of water</span>
+                    <br>
+                    <span>Using a fading green light</span>
+                    <br>
+                    <span>Rendered by people on the opposite sides of the world</span>
+                </p>
+                <p>
+                    <span>A image of clouds</span>
+                    <br>
+                    <span>In a boundless space</span>
+                    <br>
+                    <span>Using colored dyes</span>
+                    <br>
+                    <span>Rendered by people who have never met</span>
+                </p>
+                <p>
+                    <span>An image of a basket of persimmons</span>
+                    <br>
+                    <span>Locked in an embrace</span>
+                    <br>
+                    <span>Using dappled sunlight</span>
+                    <br>
+                    <span>Rendered by a slow-moving hand</span>
+                </p>
+                <p>
+                    <span>An image of lovers</span>
+                    <br>
+                    <span>Caught in motion</span>
+                    <br>
+                    <span>Using a feeling of longing</span>
+                    <br>
+                    <span>Rendered by friends and enemies</span>
+                </p>
+                <p>
+                    <span>An image of grasses swaying in the wind</span>
+                    <br>
+                    <span>Suspended on a screen</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by strangers</span>
+                </p>
+                <p>
+                    <span>An image of persimmons</span>
+                    <br>
+                    <span>Captured in the daylight</span>
+                    <br>
+                    <span>Using wet clay</span>
+                    <br>
+                    <span>Rendered by friends</span>
+                </p>
+                <p>
+                    <span>An image of a basket of persimmons</span>
+                    <br>
+                    <span>Composed in a fervor</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>An image of clouds</span>
+                    <br>
+                    <span>Suspended underwater</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                    <br>
                 </p>
                 <!-- end of section -->
             </div>
@@ -512,831 +532,1015 @@
         <div class="row3">
             <div id="autoscrollmotion3" class="r3content">
                 <p>
-                    <span>An image of a thin line</span>
+                    <span>An image of a dancer</span>
                     <br>
-                    <span>Curling itself into a loose spiral</span>
+                    <span>On a canvas of linen</span>
                     <br>
-                    <span">Set against light yellow</span>
+                    <span>Using dappled sunlight</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by people who sleep very little</span>
                 </p>
                 <p>
-                    <span>An image of anger</span>
+                    <span>An image of an unending road</span>
                     <br>
-                    <span>Scrawled across concrete</span>
+                    <span>On a flat white backdrop</span>
                     <br>
-                    <span">In an unknown urban city</span>
+                    <span>Using indigo inks</span>
                     <br>
-                    <span>With the text, "No cops no jails"</span>
+                    <span>Rendered by someone in a hurry</span>
                 </p>
                 <p>
-                    <span>An image of a hand</span>
+                    <span>An image of peonies</span>
                     <br>
-                    <span>Laying a pointer finger</span>
+                    <span>Caught in motion</span>
                     <br>
-                    <span">On the rings of a tree</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With the text, "This is where it happened."</span>
+                    <span>Rendered by people on the opposite sides of the world</span>
                 </p>
                 <p>
-                    <span>An image of suns (drawn)</span>
+                    <span>An image of branches</span>
                     <br>
-                    <span>Ascending, one by one,</span>
+                    <span>Scribbled across a sheet of paper</span>
                     <br>
-                    <span">Into the warmer tones of a blackened morning</span>
+                    <span>Using pixels</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a young boy</span>
                 </p>
                 <p>
-                    <span>An image of a clock</span>
+                    <span>An image of a single tree in a field</span>
                     <br>
-                    <span>Designed without hours</span>
+                    <span>On the sand, by the sea</span>
                     <br>
-                    <span">On a flat white backdrop</span>
+                    <span>Using pixels</span>
                     <br>
-                    <span>With the word "Now" repeated on its surface</span>
+                    <span>Rendered by friends and enemies</span>
                 </p>
                 <p>
-                    <span>An image of a landscape</span>
+                    <span>An image of grasses swaying in the wind</span>
                     <br>
-                    <span>Light streaks reflected</span>
+                    <span>Locked in an embrace</span>
                     <br>
-                    <span">On the sand, in the sea</span>
+                    <span>Using watercolors</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by friends</span>
                 </p>
                 <p>
-                    <span>An image of a spider</span>
+                    <span>An image of plum trees</span>
                     <br>
-                    <span>Swimming</span>
+                    <span>Caught in motion</span>
                     <br>
-                    <span">Suspended in water</span>
+                    <span>Using wet clay</span>
                     <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a quote</span>
-                    <br>
-                    <span>By Charles Eames</span>
-                    <br>
-                    <span">Against the color orange</span>
-                    <br>
-                    <span>With the text, "Take your pleasure seriously"</span>
-                </p>
-                <p>
-                    <span>An image of human figures caught in motion</span>
-                    <br>
-                    <span>Suspended in air</span>
-                    <br>
-                    <span">On an unending road</span>
-                    <br>
-                    <span>With no text</span>
+                    <span>Rendered by friends and enemies</span>
                 </p>
                 <p>
                     <span>An image of clouds</span>
                     <br>
-                    <span>Filling a billboard</span>
+                    <span>On the sand, by the sea</span>
                     <br>
-                    <span">Within a prairie field</span>
+                    <span>Using a fading green light</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a slow-moving hand</span>
                 </p>
                 <p>
-                    <span>An image of silver waves trailing from a boat</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>Forming pleats</span>
+                    <span>On a canvas of linen</span>
                     <br>
-                    <span">Within silver water</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a single gesture</span>
                 </p>
                 <p>
-                    <span>An image of metal rings</span>
+                    <span>An image of mountains in a far-off land</span>
                     <br>
-                    <span>Simulating ripples around stones</span>
+                    <span>In a body of water</span>
                     <br>
-                    <span">Set within a creek</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a fluid motion</span>
                 </p>
                 <p>
                     <span>An image of a dancer</span>
                     <br>
-                    <span>Surrounded by notations of her movements</span>
+                    <span>Suspended underwater</span>
                     <br>
-                    <span">In black and white</span>
+                    <span>Using yellow acrylic paint</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by strangers</span>
                 </p>
                 <p>
-                    <span>A image of two children</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>Dancing and spinning in circles around</span>
+                    <span>Locked in an embrace</span>
                     <br>
-                    <span">A tree in a field</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by people on the opposite sides of the world</span>
                 </p>
                 <p>
-                    <span>An image of lovers</span>
+                    <span>An image of willowy human figures</span>
                     <br>
-                    <span>Locked into an embrace</span>
+                    <span>Locked in an embrace</span>
                     <br>
-                    <span">In each other's arms</span>
+                    <span>Using watercolors</span>
                     <br>
-                    <span>With the text, "All the time, since the beginning."</span>
+                    <span>Rendered by people on the opposite sides of the world</span>
                 </p>
                 <p>
-                    <span>A image of a field</span>
+                    <span>An image of willowy human figures</span>
                     <br>
-                    <span>Of grasses swaying and bending</span>
+                    <span>Caught in motion</span>
                     <br>
-                    <span">Through the wind</span>
+                    <span>Using a continuous line</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a slow-moving hand</span>
                 </p>
                 <p>
-                    <span>An image of a couple</span>
+                    <span>An image of stone</span>
                     <br>
-                    <span>On a motorbike</span>
+                    <span>Painted on paper</span>
                     <br>
-                    <span">Coursing through a tunnel, lit to be green</span>
+                    <span>Using watercolors</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by would-be lovers</span>
                 </p>
                 <p>
-                    <span>An image of a young boy</span>
+                    <span>A image of a single tree in a field</span>
                     <br>
-                    <span>Running through yellow</span>
+                    <span>Captured in the daylight</span>
                     <br>
-                    <span">Wheat fields, splitting like a river</span>
+                    <span>Using pixels</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by someone in a hurry</span>
+                </p>
+                <p>
+                    <span>An image of plum trees</span>
+                    <br>
+                    <span>Composed in a fervor</span>
+                    <br>
+                    <span>Using indigo inks</span>
+                    <br>
+                    <span>Rendered by friends</span>
+                </p>
+                <p>
+                    <span>An image of willowy human figures</span>
+                    <br>
+                    <span>Captured in the daylight</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by someone in a hurry</span>
+                </p>
+                <p>
+                    <span>An image of an unending road</span>
+                    <br>
+                    <span>In a boundless space</span>
+                    <br>
+                    <span>Using wet clay</span>
+                    <br>
+                    <span>Rendered by a slow-moving hand</span>
+                </p>
+                <p>
+                    <span>An image of plum trees</span>
+                    <br>
+                    <span>Captured in the daylight</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by friends and enemies</span>
+                </p>
+                <p>
+                    <span>An image of stone</span>
+                    <br>
+                    <span>Suspended on a screen</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by someone in a hurry</span>
+                </p>
+                <p>
+                    <span>An image of willowy human figures</span>
+                    <br>
+                    <span>Scribbled across a sheet of paper</span>
+                    <br>
+                    <span>Using dappled sunlight</span>
+                    <br>
+                    <span>Rendered by friends and enemies</span>
+                    <br>
                 </p>
             </div>
         </div>
         <div class="row4">
             <div id="autoscrollmotion4" class="r4content">
                 <p>
-                    <span>An image of a thin line</span>
+                    <span>An image of willowy human figures</span>
                     <br>
-                    <span>Curling itself into a loose spiral</span>
+                    <span>Scribbled across a sheet of paper</span>
                     <br>
-                    <span">Set against light yellow</span>
+                    <span>Using dappled sunlight</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by friends and enemies</span>
                 </p>
                 <p>
-                    <span>An image of anger</span>
+                    <span>An image of grasses swaying in the wind</span>
                     <br>
-                    <span>Scrawled across concrete</span>
+                    <span>Captured in the daylight</span>
                     <br>
-                    <span">In an unknown urban city</span>
+                    <span>Using dappled sunlight</span>
                     <br>
-                    <span>With the text, "No cops no jails"</span>
+                    <span>Rendered by would-be lovers</span>
                 </p>
                 <p>
-                    <span>An image of a hand</span>
+                    <span>An image of a single tree in a field</span>
                     <br>
-                    <span>Laying a pointer finger</span>
+                    <span>In a body of water</span>
                     <br>
-                    <span">On the rings of a tree</span>
+                    <span>Using a fading green light</span>
                     <br>
-                    <span>With the text, "This is where it happened."</span>
-                </p>
-                <p>
-                    <span>An image of suns (drawn)</span>
-                    <br>
-                    <span>Ascending, one by one,</span>
-                    <br>
-                    <span">Into the warmer tones of a blackened morning</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a clock</span>
-                    <br>
-                    <span>Designed without hours</span>
-                    <br>
-                    <span">On a flat white backdrop</span>
-                    <br>
-                    <span>With the word "Now" repeated on its surface</span>
-                </p>
-                <p>
-                    <span>An image of a landscape</span>
-                    <br>
-                    <span>Light streaks reflected</span>
-                    <br>
-                    <span">On the sand, in the sea</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a spider</span>
-                    <br>
-                    <span>Swimming</span>
-                    <br>
-                    <span">Suspended in water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a quote</span>
-                    <br>
-                    <span>By Charles Eames</span>
-                    <br>
-                    <span">Against the color orange</span>
-                    <br>
-                    <span>With the text, "Take your pleasure seriously"</span>
-                </p>
-                <p>
-                    <span>An image of human figures caught in motion</span>
-                    <br>
-                    <span>Suspended in air</span>
-                    <br>
-                    <span">On an unending road</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of clouds</span>
-                    <br>
-                    <span>Filling a billboard</span>
-                    <br>
-                    <span">Within a prairie field</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of silver waves trailing from a boat</span>
-                    <br>
-                    <span>Forming pleats</span>
-                    <br>
-                    <span">Within silver water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of metal rings</span>
-                    <br>
-                    <span>Simulating ripples around stones</span>
-                    <br>
-                    <span">Set within a creek</span>
-                    <br>
-                    <span>With no text</span>
+                    <span>Rendered by people on the opposite sides of the world</span>
                 </p>
                 <p>
                     <span>An image of a dancer</span>
                     <br>
-                    <span>Surrounded by notations of her movements</span>
+                    <span>Captured in the daylight</span>
                     <br>
-                    <span">In black and white</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by would-be lovers</span>
                 </p>
                 <p>
-                    <span>A image of two children</span>
+                    <span>An image of a dancer</span>
                     <br>
-                    <span>Dancing and spinning in circles around</span>
+                    <span>Through the wind</span>
                     <br>
-                    <span">A tree in a field</span>
+                    <span>Using pixels</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by someone in a hurry</span>
                 </p>
                 <p>
-                    <span>An image of lovers</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>Locked into an embrace</span>
+                    <span>Through the wind</span>
                     <br>
-                    <span">In each other's arms</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With the text, "All the time, since the beginning."</span>
+                    <span>Rendered in a fluid motion</span>
                 </p>
                 <p>
-                    <span>A image of a field</span>
+                    <span>An image of stone</span>
                     <br>
-                    <span>Of grasses swaying and bending</span>
+                    <span>In a body of water</span>
                     <br>
-                    <span">Through the wind</span>
+                    <span>Using wet clay</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by would-be lovers</span>
                 </p>
                 <p>
-                    <span>An image of a couple</span>
+                    <span>An image of willowy human figures</span>
                     <br>
-                    <span>On a motorbike</span>
+                    <span>In a boundless space</span>
                     <br>
-                    <span">Coursing through a tunnel, lit to be green</span>
+                    <span>Using dappled sunlight</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by someone in a hurry</span>
                 </p>
                 <p>
-                    <span>An image of a young boy</span>
+                    <span>An image of grasses swaying in the wind</span>
                     <br>
-                    <span>Running through yellow</span>
+                    <span>Through the wind</span>
                     <br>
-                    <span">Wheat fields, splitting like a river</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by someone in a hurry</span>
                 </p>
+                <p>
+                    <span>An image of a basket of persimmons</span>
+                    <br>
+                    <span>Through the wind</span>
+                    <br>
+                    <span>Using graphite</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>An image of silver waves</span>
+                    <br>
+                    <span>Caught in motion</span>
+                    <br>
+                    <span>Using yellow acrylic paint</span>
+                    <br>
+                    <span>Rendered by strangers</span>
+                </p>
+                <p>
+                    <span>An image of clouds</span>
+                    <br>
+                    <span>Suspended on a screen</span>
+                    <br>
+                    <span>Using oil paints</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of branches</span>
+                    <br>
+                    <span>In a body of water</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of grasses swaying in the wind</span>
+                    <br>
+                    <span>In a boundless space</span>
+                    <br>
+                    <span>Using oil paints</span>
+                    <br>
+                    <span>Rendered by friends and enemies</span>
+                </p>
+                <p>
+                    <span>An image of stone</span>
+                    <br>
+                    <span>Painted on paper</span>
+                    <br>
+                    <span>Using watercolors</span>
+                    <br>
+                    <span>Rendered by would-be lovers</span>
+                </p>
+                <p>
+                    <span>A image of persimmons</span>
+                    <br>
+                    <span>Scribbled across a sheet of paper</span>
+                    <br>
+                    <span>Using wet clay</span>
+                    <br>
+                    <span>Rendered by friends</span>
+                </p>
+                <p>
+                    <span>An image of a dancer</span>
+                    <br>
+                    <span>Painted on paper</span>
+                    <br>
+                    <span>Using fingers stained by pastel</span>
+                    <br>
+                    <span>Rendered by strangers</span>
+                </p>
+                <p>
+                    <span>An image of plum trees</span>
+                    <br>
+                    <span>On a canvas of linen</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of a single tree in a field</span>
+                    <br>
+                    <span>On the sand, by the sea</span>
+                    <br>
+                    <span>Using fingers stained by pastel</span>
+                    <br>
+                    <span>Rendered by people on the opposite sides of the world</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>On a flat white backdrop</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>In a body of water</span>
+                    <br>
+                    <span>Using a long stick of charcoal</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>An image of persimmons</span>
+                    <br>
+                    <span>Through the wind</span>
+                    <br>
+                    <span>Using yellow acrylic paint</span>
+                    <br>
+                    <span>Rendered by people who have never met</span>
+                    <br>
                 </p>
             </div>
         </div>
         <div class="row5">
             <div id="autoscrollmotion5" class="r5content">
                 <p>
-                    <span>An image of a thin line</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>Curling itself into a loose spiral</span>
+                    <span>In a boundless space</span>
                     <br>
-                    <span">Set against light yellow</span>
+                    <span>Using only black and white paints</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by people who sleep very little</span>
                 </p>
                 <p>
-                    <span>An image of anger</span>
+                    <span>An image of branches</span>
                     <br>
-                    <span>Scrawled across concrete</span>
+                    <span>Scribbled across a sheet of paper</span>
                     <br>
-                    <span">In an unknown urban city</span>
+                    <span>Using pixels</span>
                     <br>
-                    <span>With the text, "No cops no jails"</span>
+                    <span>Rendered in a single gesture</span>
                 </p>
                 <p>
-                    <span>An image of a hand</span>
+                    <span>An image of persimmons</span>
                     <br>
-                    <span>Laying a pointer finger</span>
+                    <span>Suspended on a screen</span>
                     <br>
-                    <span">On the rings of a tree</span>
+                    <span>Using oil paints</span>
                     <br>
-                    <span>With the text, "This is where it happened."</span>
+                    <span>Rendered by a slow-moving hand</span>
                 </p>
                 <p>
-                    <span>An image of suns (drawn)</span>
+                    <span>An image of grasses swaying in the wind</span>
                     <br>
-                    <span>Ascending, one by one,</span>
+                    <span>Captured in motion</span>
                     <br>
-                    <span">Into the warmer tones of a blackened morning</span>
+                    <span>Using oil paints</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by friends and enemies</span>
                 </p>
                 <p>
-                    <span>An image of a clock</span>
+                    <span>An image of stone</span>
                     <br>
-                    <span>Designed without hours</span>
+                    <span>Through the wind</span>
                     <br>
-                    <span">On a flat white backdrop</span>
+                    <span>Using only black and white paints</span>
                     <br>
-                    <span>With the word "Now" repeated on its surface</span>
+                    <span>Rendered by friends and enemies</span>
                 </p>
                 <p>
-                    <span>An image of a landscape</span>
+                    <span>An image of a river</span>
                     <br>
-                    <span>Light streaks reflected</span>
+                    <span>Through the wind</span>
                     <br>
-                    <span">On the sand, in the sea</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by someone in a hurry</span>
                 </p>
                 <p>
-                    <span>An image of a spider</span>
+                    <span>An image of stone</span>
                     <br>
-                    <span>Swimming</span>
+                    <span>In a body of water</span>
                     <br>
-                    <span">Suspended in water</span>
+                    <span>Using fingers stained by pastel</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a young girl</span>
                 </p>
                 <p>
-                    <span>An image of a quote</span>
+                    <span>An image of a river</span>
                     <br>
-                    <span>By Charles Eames</span>
+                    <span>Caught in motion</span>
                     <br>
-                    <span">Against the color orange</span>
+                    <span>Using fingers stained by pastel</span>
                     <br>
-                    <span>With the text, "Take your pleasure seriously"</span>
+                    <span>Rendered in a fluid motion</span>
                 </p>
                 <p>
-                    <span>An image of human figures caught in motion</span>
+                    <span>An image of silver waves</span>
                     <br>
-                    <span>Suspended in air</span>
+                    <span>Through the wind</span>
                     <br>
-                    <span">On an unending road</span>
+                    <span>Using only black and white paints</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a single gesture</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>On a flat white backdrop</span>
+                    <br>
+                    <span>Using fingers stained by pastel</span>
+                    <br>
+                    <span>Rendered in a single gesture</span>
                 </p>
                 <p>
                     <span>An image of clouds</span>
                     <br>
-                    <span>Filling a billboard</span>
+                    <span>Suspended on a screen</span>
                     <br>
-                    <span">Within a prairie field</span>
+                    <span>Using fingers stained by pastel</span>
                     <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of silver waves trailing from a boat</span>
-                    <br>
-                    <span>Forming pleats</span>
-                    <br>
-                    <span">Within silver water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of metal rings</span>
-                    <br>
-                    <span>Simulating ripples around stones</span>
-                    <br>
-                    <span">Set within a creek</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a dancer</span>
-                    <br>
-                    <span>Surrounded by notations of her movements</span>
-                    <br>
-                    <span">In black and white</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>A image of two children</span>
-                    <br>
-                    <span>Dancing and spinning in circles around</span>
-                    <br>
-                    <span">A tree in a field</span>
-                    <br>
-                    <span>With no text</span>
+                    <span>Rendered by people who have never met</span>
                 </p>
                 <p>
                     <span>An image of lovers</span>
                     <br>
-                    <span>Locked into an embrace</span>
+                    <span>On a canvas of linen</span>
                     <br>
-                    <span">In each other's arms</span>
+                    <span>Using pixels</span>
                     <br>
-                    <span>With the text, "All the time, since the beginning."</span>
+                    <span>Rendered by someone in a hurry</span>
                 </p>
                 <p>
-                    <span>A image of a field</span>
+                    <span>An image of lovers</span>
                     <br>
-                    <span>Of grasses swaying and bending</span>
+                    <span>In a boundless space</span>
                     <br>
-                    <span">Through the wind</span>
+                    <span>Using a continuous line</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a slow-moving hand</span>
                 </p>
                 <p>
-                    <span>An image of a couple</span>
+                    <span>An image of a single tree in a field</span>
                     <br>
-                    <span>On a motorbike</span>
+                    <span>In a body of water</span>
                     <br>
-                    <span">Coursing through a tunnel, lit to be green</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by strangers</span>
                 </p>
                 <p>
-                    <span>An image of a young boy</span>
+                    <span>An image of persimmons</span>
                     <br>
-                    <span>Running through yellow</span>
+                    <span>Painted on paper</span>
                     <br>
-                    <span">Wheat fields, splitting like a river</span>
+                    <span>Using a continuous line</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>A image of a single tree in a field</span>
+                    <br>
+                    <span>On the sand, by the sea</span>
+                    <br>
+                    <span>Using a feeling of longing</span>
+                    <br>
+                    <span>Rendered by people who have never met</span>
+                </p>
+                <p>
+                    <span>An image of lovers</span>
+                    <br>
+                    <span>Captured in the daylight</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by people on the opposite sides of the world</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>Captured in the daylight</span>
+                    <br>
+                    <span>Using a fading green light</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of lovers</span>
+                    <br>
+                    <span>On a flat white backdrop</span>
+                    <br>
+                    <span>Using fingers stained by pastel</span>
+                    <br>
+                    <span>Rendered by friends</span>
+                </p>
+                <p>
+                    <span>An image of mountains in a far-off land</span>
+                    <br>
+                    <span>Scribbled across a sheet of paper</span>
+                    <br>
+                    <span>Using pixels</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of a single tree in a field</span>
+                    <br>
+                    <span>On a canvas of linen</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of a dancer</span>
+                    <br>
+                    <span>Suspended on a screen</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by people on the opposite sides of the world</span>
+                    <br>
                 </p>
             </div>
         </div>
         <div class="row6">
             <div id="autoscrollmotion6" class="r6content">
                 <p>
-                    <span>An image of a thin line</span>
+                    <span>An image of lovers</span>
                     <br>
-                    <span>Curling itself into a loose spiral</span>
+                    <span>On a flat white backdrop</span>
                     <br>
-                    <span">Set against light yellow</span>
+                    <span>Using indigo inks</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by people who have never met</span>
                 </p>
                 <p>
-                    <span>An image of anger</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>Scrawled across concrete</span>
+                    <span>Caught in motion</span>
                     <br>
-                    <span">In an unknown urban city</span>
+                    <span>Using a feeling of longing</span>
                     <br>
-                    <span>With the text, "No cops no jails"</span>
+                    <span>Rendered by people who have never met</span>
                 </p>
                 <p>
-                    <span>An image of a hand</span>
+                    <span>An image of silver waves</span>
                     <br>
-                    <span>Laying a pointer finger</span>
+                    <span>Suspended underwater</span>
                     <br>
-                    <span">On the rings of a tree</span>
+                    <span>Using pixels</span>
                     <br>
-                    <span>With the text, "This is where it happened."</span>
+                    <span>Rendered by friends</span>
                 </p>
                 <p>
-                    <span>An image of suns (drawn)</span>
+                    <span>An image of plum trees</span>
                     <br>
-                    <span>Ascending, one by one,</span>
+                    <span>On a canvas of linen</span>
                     <br>
-                    <span">Into the warmer tones of a blackened morning</span>
+                    <span>Using only black and white paints</span>
                     <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a clock</span>
-                    <br>
-                    <span>Designed without hours</span>
-                    <br>
-                    <span">On a flat white backdrop</span>
-                    <br>
-                    <span>With the word "Now" repeated on its surface</span>
-                </p>
-                <p>
-                    <span>An image of a landscape</span>
-                    <br>
-                    <span>Light streaks reflected</span>
-                    <br>
-                    <span">On the sand, in the sea</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a spider</span>
-                    <br>
-                    <span>Swimming</span>
-                    <br>
-                    <span">Suspended in water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a quote</span>
-                    <br>
-                    <span>By Charles Eames</span>
-                    <br>
-                    <span">Against the color orange</span>
-                    <br>
-                    <span>With the text, "Take your pleasure seriously"</span>
-                </p>
-                <p>
-                    <span>An image of human figures caught in motion</span>
-                    <br>
-                    <span>Suspended in air</span>
-                    <br>
-                    <span">On an unending road</span>
-                    <br>
-                    <span>With no text</span>
+                    <span>Rendered in a single gesture</span>
                 </p>
                 <p>
                     <span>An image of clouds</span>
                     <br>
-                    <span>Filling a billboard</span>
+                    <span>Suspended underwater</span>
                     <br>
-                    <span">Within a prairie field</span>
+                    <span>Using wet clay</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a young boy</span>
                 </p>
                 <p>
-                    <span>An image of silver waves trailing from a boat</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>Forming pleats</span>
+                    <span>On a canvas of linen</span>
                     <br>
-                    <span">Within silver water</span>
+                    <span>Using wet clay</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by someone in a hurry</span>
                 </p>
                 <p>
-                    <span>An image of metal rings</span>
+                    <span>An image of peonies</span>
                     <br>
-                    <span>Simulating ripples around stones</span>
+                    <span>On a canvas of linen</span>
                     <br>
-                    <span">Set within a creek</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by would-be lovers</span>
                 </p>
                 <p>
-                    <span>An image of a dancer</span>
+                    <span>An image of grasses swaying in the wind</span>
                     <br>
-                    <span>Surrounded by notations of her movements</span>
+                    <span>Suspended on a screen</span>
                     <br>
-                    <span">In black and white</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by people who have never met</span>
                 </p>
                 <p>
-                    <span>A image of two children</span>
+                    <span>An image of plum trees</span>
                     <br>
-                    <span>Dancing and spinning in circles around</span>
+                    <span>On a flat white backdrop</span>
                     <br>
-                    <span">A tree in a field</span>
+                    <span>Using a feeling of longing</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by would-be lovers</span>
+                </p>
+                <p>
+                    <span>An image of persimmons</span>
+                    <br>
+                    <span>On a flat white backdrop</span>
+                    <br>
+                    <span>Using fingers stained by pastel</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>Caught in motion</span>
+                    <br>
+                    <span>Using indigo inks</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
                 </p>
                 <p>
                     <span>An image of lovers</span>
                     <br>
-                    <span>Locked into an embrace</span>
+                    <span>Captured in the daylight</span>
                     <br>
-                    <span">In each other's arms</span>
+                    <span>Using wet clay</span>
                     <br>
-                    <span>With the text, "All the time, since the beginning."</span>
+                    <span>Rendered by people who have never met</span>
                 </p>
                 <p>
-                    <span>A image of a field</span>
+                    <span>An image of silver waves</span>
                     <br>
-                    <span>Of grasses swaying and bending</span>
+                    <span>Suspended underwater</span>
                     <br>
-                    <span">Through the wind</span>
+                    <span>Using pixels</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a slow-moving hand</span>
                 </p>
                 <p>
-                    <span>An image of a couple</span>
+                    <span>An image of persimmons</span>
                     <br>
-                    <span>On a motorbike</span>
+                    <span>Suspended on a screen</span>
                     <br>
-                    <span">Coursing through a tunnel, lit to be green</span>
+                    <span>Using wet clay</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by friends</span>
                 </p>
                 <p>
-                    <span>An image of a young boy</span>
+                    <span>An image of persimmons</span>
                     <br>
-                    <span>Running through yellow</span>
+                    <span>Painted on paper</span>
                     <br>
-                    <span">Wheat fields, splitting like a river</span>
+                    <span>Using a continuous line</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>A image of a single tree in a field</span>
+                    <br>
+                    <span>On the sand, by the sea</span>
+                    <br>
+                    <span>Using a feeling of longing</span>
+                    <br>
+                    <span>Rendered by people who have never met</span>
+                </p>
+                <p>
+                    <span>An image of willowy human figures</span>
+                    <br>
+                    <span>In a body of water</span>
+                    <br>
+                    <span>Using a feeling of longing</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of clouds</span>
+                    <br>
+                    <span>Locked in an embrace</span>
+                    <br>
+                    <span>Using indigo inks</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>An image of willowy human figures</span>
+                    <br>
+                    <span>Composed in a fervor</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by friends and enemies</span>
+                </p>
+                <p>
+                    <span>An image of leaves caught in motion</span>
+                    <br>
+                    <span>In a body of water</span>
+                    <br>
+                    <span>Using dappled sunlight</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>An image of grasses swaying in the wind</span>
+                    <br>
+                    <span>In a boundless space</span>
+                    <br>
+                    <span>Using graphite</span>
+                    <br>
+                    <span>Rendered by friends and enemies</span>
+                </p>
+                <p>
+                    <span>An image of a basket of persimmons</span>
+                    <br>
+                    <span>On a canvas of linen</span>
+                    <br>
+                    <span>Using a long stick of charcoal</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                    <br>
                 </p>
             </div>
         </div>
         <div class="row7">
             <div id="autoscrollmotion7" class="r7content">
                 <p>
-                    <span>An image of a thin line</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>Curling itself into a loose spiral</span>
+                    <span>Captured in the daylight</span>
                     <br>
-                    <span">Set against light yellow</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of anger</span>
-                    <br>
-                    <span>Scrawled across concrete</span>
-                    <br>
-                    <span">In an unknown urban city</span>
-                    <br>
-                    <span>With the text, "No cops no jails"</span>
-                </p>
-                <p>
-                    <span>An image of a hand</span>
-                    <br>
-                    <span>Laying a pointer finger</span>
-                    <br>
-                    <span">On the rings of a tree</span>
-                    <br>
-                    <span>With the text, "This is where it happened."</span>
-                </p>
-                <p>
-                    <span>An image of suns (drawn)</span>
-                    <br>
-                    <span>Ascending, one by one,</span>
-                    <br>
-                    <span">Into the warmer tones of a blackened morning</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a clock</span>
-                    <br>
-                    <span>Designed without hours</span>
-                    <br>
-                    <span">On a flat white backdrop</span>
-                    <br>
-                    <span>With the word "Now" repeated on its surface</span>
-                </p>
-                <p>
-                    <span>An image of a landscape</span>
-                    <br>
-                    <span>Light streaks reflected</span>
-                    <br>
-                    <span">On the sand, in the sea</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a spider</span>
-                    <br>
-                    <span>Swimming</span>
-                    <br>
-                    <span">Suspended in water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a quote</span>
-                    <br>
-                    <span>By Charles Eames</span>
-                    <br>
-                    <span">Against the color orange</span>
-                    <br>
-                    <span>With the text, "Take your pleasure seriously"</span>
-                </p>
-                <p>
-                    <span>An image of human figures caught in motion</span>
-                    <br>
-                    <span>Suspended in air</span>
-                    <br>
-                    <span">On an unending road</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of clouds</span>
-                    <br>
-                    <span>Filling a billboard</span>
-                    <br>
-                    <span">Within a prairie field</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of silver waves trailing from a boat</span>
-                    <br>
-                    <span>Forming pleats</span>
-                    <br>
-                    <span">Within silver water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of metal rings</span>
-                    <br>
-                    <span>Simulating ripples around stones</span>
-                    <br>
-                    <span">Set within a creek</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a dancer</span>
-                    <br>
-                    <span>Surrounded by notations of her movements</span>
-                    <br>
-                    <span">In black and white</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>A image of two children</span>
-                    <br>
-                    <span>Dancing and spinning in circles around</span>
-                    <br>
-                    <span">A tree in a field</span>
-                    <br>
-                    <span>With no text</span>
+                    <span>Rendered by a young boy</span>
                 </p>
                 <p>
                     <span>An image of lovers</span>
                     <br>
-                    <span>Locked into an embrace</span>
+                    <span>In a boundless space</span>
                     <br>
-                    <span">In each other's arms</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With the text, "All the time, since the beginning."</span>
+                    <span>Rendered in a fluid motion</span>
                 </p>
                 <p>
-                    <span>A image of a field</span>
+                    <span>An image of leaves caught in motion</span>
                     <br>
-                    <span>Of grasses swaying and bending</span>
+                    <span>In a body of water</span>
                     <br>
-                    <span">Through the wind</span>
+                    <span>Using yellow acrylic paint</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a single gesture</span>
                 </p>
                 <p>
-                    <span>An image of a couple</span>
+                    <span>An image of a basket of persimmons</span>
                     <br>
-                    <span>On a motorbike</span>
+                    <span>Suspended on a screen</span>
                     <br>
-                    <span">Coursing through a tunnel, lit to be green</span>
+                    <span>Using watercolors</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a single gesture</span>
                 </p>
                 <p>
-                    <span>An image of a young boy</span>
+                    <span>An image of leaves caught in motion</span>
                     <br>
-                    <span>Running through yellow</span>
+                    <span>In a boundless space</span>
                     <br>
-                    <span">Wheat fields, splitting like a river</span>
+                    <span>Using oil paints</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a single gesture</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>On the sand, by the sea</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by would-be lovers</span>
+                </p>
+                <p>
+                    <span>An image of lovers</span>
+                    <br>
+                    <span>In a body of water</span>
+                    <br>
+                    <span>Using watercolors</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of clouds</span>
+                    <br>
+                    <span>Locked in an embrace</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by friends and enemies</span>
+                </p>
+                <p>
+                    <span>An image of silver waves</span>
+                    <br>
+                    <span>Scribbled across a sheet of paper</span>
+                    <br>
+                    <span>Using wet clay</span>
+                    <br>
+                    <span>Rendered by someone in a hurry</span>
+                </p>
+                <p>
+                    <span>An image of grasses swaying in the wind</span>
+                    <br>
+                    <span>Locked in an embrace</span>
+                    <br>
+                    <span>Using oil paints</span>
+                    <br>
+                    <span>Rendered by would-be lovers</span>
+                </p>
+                <p>
+                    <span>An image of persimmons</span>
+                    <br>
+                    <span>Scribbled across a sheet of paper</span>
+                    <br>
+                    <span>Using colored dyes</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>An image of silver waves</span>
+                    <br>
+                    <span>Caught in motion</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>Painted on paper</span>
+                    <br>
+                    <span>Using pixels</span>
+                    <br>
+                    <span>Rendered by would-be lovers</span>
+                </p>
+                <p>
+                    <span>An image of a river</span>
+                    <br>
+                    <span>Caught in motion</span>
+                    <br>
+                    <span>Using pixels</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of peonies</span>
+                    <br>
+                    <span>Locked in an embrace</span>
+                    <br>
+                    <span>Using dappled sunlight</span>
+                    <br>
+                    <span>Rendered by friends</span>
+                </p>
+                <p>
+                    <span>A image of a river</span>
+                    <br>
+                    <span>Suspended on a screen</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of an unending road</span>
+                    <br>
+                    <span>Painted on paper</span>
+                    <br>
+                    <span>Using yellow acrylic paint</span>
+                    <br>
+                    <span>Rendered by people who have never met</span>
+                </p>
+                <p>
+                    <span>An image of a single tree in a field</span>
+                    <br>
+                    <span>Composed in a fervor</span>
+                    <br>
+                    <span>Using a long stick of charcoal</span>
+                    <br>
+                    <span>Rendered by people on the opposite sides of the world</span>
+                </p>
+                <p>
+                    <span>An image of stone</span>
+                    <br>
+                    <span>Suspended on a screen</span>
+                    <br>
+                    <span>Using fingers stained by pastel</span>
+                    <br>
+                    <span>Rendered by a slow-moving hand</span>
+                </p>
+                <p>
+                    <span>An image of a dancer</span>
+                    <br>
+                    <span>Locked in an embrace</span>
+                    <br>
+                    <span>Using fingers stained by pastel</span>
+                    <br>
+                    <span>Rendered by friends and enemies</span>
+                </p>
+                <p>
+                    <span>An image of grasses swaying in the wind</span>
+                    <br>
+                    <span>Captured in the daylight</span>
+                    <br>
+                    <span>Using indigo inks</span>
+                    <br>
+                    <span>Rendered by a young boy</span>
+                </p>
+                <p>
+                    <span>An image of persimmons</span>
+                    <br>
+                    <span>Through the wind</span>
+                    <br>
+                    <span>Using indigo inks</span>
+                    <br>
+                    <span>Rendered by strangers</span>
+                    <br>
                 </p>
             </div>
         </div>
@@ -1344,166 +1548,203 @@
             <!-- <p style="background-color: black" class="titletxt" id="titleblock1">[ 1 OF 9 ]</p> -->
             <div id="autoscrollmotion8" class="r8content">
                 <p>
-                    <span>An image of a thin line</span>
+                    <span>An image of peonies</span>
                     <br>
-                    <span>Curling itself into a loose spiral</span>
+                    <span>On a canvas of linen</span>
                     <br>
-                    <span">Set against light yellow</span>
+                    <span>Using a long stick of charcoal</span>
                     <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of anger</span>
-                    <br>
-                    <span>Scrawled across concrete</span>
-                    <br>
-                    <span">In an unknown urban city</span>
-                    <br>
-                    <span>With the text, "No cops no jails"</span>
-                </p>
-                <p>
-                    <span>An image of a hand</span>
-                    <br>
-                    <span>Laying a pointer finger</span>
-                    <br>
-                    <span">On the rings of a tree</span>
-                    <br>
-                    <span>With the text, "This is where it happened."</span>
-                </p>
-                <p>
-                    <span>An image of suns (drawn)</span>
-                    <br>
-                    <span>Ascending, one by one,</span>
-                    <br>
-                    <span">Into the warmer tones of a blackened morning</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a clock</span>
-                    <br>
-                    <span>Designed without hours</span>
-                    <br>
-                    <span">On a flat white backdrop</span>
-                    <br>
-                    <span>With the word "Now" repeated on its surface</span>
-                </p>
-                <p>
-                    <span>An image of a landscape</span>
-                    <br>
-                    <span>Light streaks reflected</span>
-                    <br>
-                    <span">On the sand, in the sea</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a spider</span>
-                    <br>
-                    <span>Swimming</span>
-                    <br>
-                    <span">Suspended in water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a quote</span>
-                    <br>
-                    <span>By Charles Eames</span>
-                    <br>
-                    <span">Against the color orange</span>
-                    <br>
-                    <span>With the text, "Take your pleasure seriously"</span>
-                </p>
-                <p>
-                    <span>An image of human figures caught in motion</span>
-                    <br>
-                    <span>Suspended in air</span>
-                    <br>
-                    <span">On an unending road</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of clouds</span>
-                    <br>
-                    <span>Filling a billboard</span>
-                    <br>
-                    <span">Within a prairie field</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of silver waves trailing from a boat</span>
-                    <br>
-                    <span>Forming pleats</span>
-                    <br>
-                    <span">Within silver water</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of metal rings</span>
-                    <br>
-                    <span>Simulating ripples around stones</span>
-                    <br>
-                    <span">Set within a creek</span>
-                    <br>
-                    <span>With no text</span>
+                    <span>Rendered by a slow-moving hand</span>
                 </p>
                 <p>
                     <span>An image of a dancer</span>
                     <br>
-                    <span>Surrounded by notations of her movements</span>
+                    <span>On a flat white backdrop</span>
                     <br>
-                    <span">In black and white</span>
+                    <span>Using dappled sunlight</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered in a single gesture</span>
                 </p>
                 <p>
-                    <span>A image of two children</span>
+                    <span>An image of persimmons</span>
                     <br>
-                    <span>Dancing and spinning in circles around</span>
+                    <span>Through the wind</span>
                     <br>
-                    <span">A tree in a field</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With no text</span>
+                    <span>Rendered by people who have never met</span>
+                </p>
+                <p>
+                    <span>An image of a single tree in a field</span>
+                    <br>
+                    <span>In a body of water</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by would-be lovers</span>
+                </p>
+                <p>
+                    <span>An image of a dancer</span>
+                    <br>
+                    <span>Suspended on a screen</span>
+                    <br>
+                    <span>Using indigo inks</span>
+                    <br>
+                    <span>Rendered by someone in a hurry</span>
+                </p>
+                <p>
+                    <span>An image of plum trees</span>
+                    <br>
+                    <span>On a flat white backdrop</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of an unending road</span>
+                    <br>
+                    <span>Through the wind</span>
+                    <br>
+                    <span>Using dappled sunlight</span>
+                    <br>
+                    <span>Rendered in a fluid motion</span>
+                </p>
+                <p>
+                    <span>An image of a single tree in a field</span>
+                    <br>
+                    <span>Scribbled across a sheet of paper</span>
+                    <br>
+                    <span>Using wet clay</span>
+                    <br>
+                    <span>Rendered by someone in a hurry</span>
+                </p>
+                <p>
+                    <span>An image of a basket of persimmons</span>
+                    <br>
+                    <span>On a canvas of linen</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by a slow-moving hand</span>
+                </p>
+                <p>
+                    <span>An image of silver waves</span>
+                    <br>
+                    <span>Scribbled across a sheet of paper</span>
+                    <br>
+                    <span>Using a continuous line</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of willowy human figures</span>
+                    <br>
+                    <span>Composed in a fervor</span>
+                    <br>
+                    <span>Using indigo inks</span>
+                    <br>
+                    <span>Rendered by people who have never met</span>
+                </p>
+                <p>
+                    <span>An image of a dancer</span>
+                    <br>
+                    <span>In a boundless space</span>
+                    <br>
+                    <span>Using pixels</span>
+                    <br>
+                    <span>Rendered by people who have never met</span>
+                </p>
+                <p>
+                    <span>An image of a dancer</span>
+                    <br>
+                    <span>In a boundless space</span>
+                    <br>
+                    <span>Using only black and white paints</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of willowy human figures</span>
+                    <br>
+                    <span>Caught in motion</span>
+                    <br>
+                    <span>Using a feeling of longing</span>
+                    <br>
+                    <span>Rendered by would-be lovers</span>
+                </p>
+                <p>
+                    <span>An image of branches</span>
+                    <br>
+                    <span>In a boundless space</span>
+                    <br>
+                    <span>Using a feeling of longing</span>
+                    <br>
+                    <span>Rendered by friends</span>
+                </p>
+                <p>
+                    <span>A image of plum trees</span>
+                    <br>
+                    <span>Composed in a fervor</span>
+                    <br>
+                    <span>Using yellow acrylic paint</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of stone</span>
+                    <br>
+                    <span>Scribbled across a sheet of paper</span>
+                    <br>
+                    <span>Using a long stick of charcoal</span>
+                    <br>
+                    <span>Rendered by would-be lovers</span>
+                </p>
+                <p>
+                    <span>An image of clouds</span>
+                    <br>
+                    <span>On a flat white backdrop</span>
+                    <br>
+                    <span>Using a feeling of longing</span>
+                    <br>
+                    <span>Rendered by a slow-moving hand</span>
+                </p>
+                <p>
+                    <span>An image of branches</span>
+                    <br>
+                    <span>Locked in an embrace</span>
+                    <br>
+                    <span>Using oil paints</span>
+                    <br>
+                    <span>Rendered by people who sleep very little</span>
+                </p>
+                <p>
+                    <span>An image of a river</span>
+                    <br>
+                    <span>On the sand, by the sea</span>
+                    <br>
+                    <span>Using a feeling of longing</span>
+                    <br>
+                    <span>Rendered by strangers</span>
                 </p>
                 <p>
                     <span>An image of lovers</span>
                     <br>
-                    <span>Locked into an embrace</span>
+                    <span>Suspended on a screen</span>
                     <br>
-                    <span">In each other's arms</span>
+                    <span>Using colored dyes</span>
                     <br>
-                    <span>With the text, "All the time, since the beginning."</span>
+                    <span>Rendered by friends</span>
                 </p>
                 <p>
-                    <span>A image of a field</span>
+                    <span>An image of mountains in a far-off land</span>
                     <br>
-                    <span>Of grasses swaying and bending</span>
+                    <span>Painted on paper</span>
                     <br>
-                    <span">Through the wind</span>
+                    <span>Using dappled sunlight</span>
                     <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a couple</span>
+                    <span>Rendered in a fluid motion</span>
                     <br>
-                    <span>On a motorbike</span>
-                    <br>
-                    <span">Coursing through a tunnel, lit to be green</span>
-                    <br>
-                    <span>With no text</span>
-                </p>
-                <p>
-                    <span>An image of a young boy</span>
-                    <br>
-                    <span>Running through yellow</span>
-                    <br>
-                    <span">Wheat fields, splitting like a river</span>
-                    <br>
-                    <span>With no text</span>
                 </p>
             </div>
         </div>
@@ -1516,4 +1757,7 @@
 <script src="animation1.js"></script>
 <script src="animation2.js"></script>
 <script src="animation3.js"></script>
+<script src="animation4.js"></script>
+<script src="animation7.js"></script>
+<script src="row1.js"></script>
 </html>
