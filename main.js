@@ -277,3 +277,7 @@ var x = setInterval(function() {
     document.getElementById("countdown-demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+function refreshPage() {
+            location.reload(); // This reloads the page
+        }
