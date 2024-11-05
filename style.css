@@ -16,7 +16,7 @@ body {
     padding: 0px 1px;
     border-left: 1.5px dotted black;
     border-right: 1.5px dotted black;
-    cursor: crosshair;
+    /*cursor: crosshair;*/
     background-color: #CCCCCC;
     /* background-color: white; */
     /* background-color: pink; */
