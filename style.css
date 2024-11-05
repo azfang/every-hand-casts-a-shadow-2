@@ -59,11 +59,11 @@ button {
     pointer-events: none;
     background: linear-gradient(
         to bottom,
-        rgba(204, 204, 204, 0.8) 2%,
+        rgba(204, 204, 204, 1) 2%,
         rgba(255, 255, 255, 0) 10%,
         rgba(255, 255, 255, 0) 50%,
         rgba(255, 255, 255, 0) 90%,
-        rgba(204, 204, 204, 0.8) 98%
+        rgba(204, 204, 204, 1) 98%
     );
     z-index: 3;
 }
