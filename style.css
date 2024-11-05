@@ -35,7 +35,7 @@ details {
     font-size: 11px;
     font-family: 'blot', serif;
     list-style: none;
-    cursor: hover;
+    cursor: pointer;
     padding: 0.5em;
 }
 
