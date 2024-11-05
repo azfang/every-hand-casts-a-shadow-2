@@ -114,7 +114,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    z-index: 0;
+    width: 100%;
     /* cursor: url(‘cursor.png’), auto; */
 }
 
