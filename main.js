@@ -109,7 +109,10 @@ $(document).ready(function () {
   $("#r2quote").hide();
   $("#r3quote").hide();
   $("#r4quote").hide();
+  $("#r5quote").hide();
+  $("#r6quote").hide();
   $("#r7quote").hide();
+  $("#r8quote").hide();
   fade1.play();
   fade2.play();
   fade3.play();
