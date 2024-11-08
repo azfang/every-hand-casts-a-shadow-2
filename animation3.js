@@ -58,7 +58,7 @@ var R3T1I1 = anime({
   });
   
   var R3T1B5 = anime({
-    targets: '#r3quote_block5',
+    targets: '#loopvid3B',
     opacity: [
       { value: 1, duration: 500 },
     ],
@@ -68,7 +68,7 @@ var R3T1I1 = anime({
   });
   
   var R3T1B6 = anime({
-    targets: '#r3quote_block6',
+    targets: '#r3quote_block5',
     opacity: [
       { value: 1, duration: 500 },
     ],
@@ -78,7 +78,7 @@ var R3T1I1 = anime({
   });
   
   var R3T1B7 = anime({
-    targets: '#r3quote_block7',
+    targets: '#r3quote_block6',
     opacity: [
       { value: 1, duration: 500 },
     ],
@@ -88,7 +88,7 @@ var R3T1I1 = anime({
   });
   
   var R3T1B8 = anime({
-    targets: '#r3quote_block8',
+    targets: '#r3quote_block7',
     opacity: [
       { value: 1, duration: 500 },
     ],
@@ -98,7 +98,7 @@ var R3T1I1 = anime({
   });
   
   var R3T1B9 = anime({
-    targets: '#r3quote_block9',
+    targets: '#r3quote_block8',
     opacity: [
       { value: 1, duration: 500 },
     ],
@@ -108,7 +108,7 @@ var R3T1I1 = anime({
   });
   
   var R3T1I2 = anime({
-    targets: '#loopvid3B',
+    targets: '#r3quote_block9',
     opacity: [
       { value: 1, duration: 500 },
     ],
@@ -156,88 +156,13 @@ var R3T1I1 = anime({
     autoplay: false,
   });
   var R3T1B14 = anime({
-    targets: '#r3quote_block14',
+    targets: '#loopvid3C',
     opacity: [
       { value: 1, duration: 500 },
     ],
     delay: 3000,
     easing: 'easeInOutQuad',
     autoplay: false,
-  });
-  var R3T1B15 = anime({
-    targets: '#r3quote_block15',
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 3200,
-    easing: 'easeInOutQuad',
-    autoplay: false,
-  });
-  var R3T1B16 = anime({
-    targets: '#r3quote_block16',
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 3400,
-    easing: 'easeInOutQuad',
-    autoplay: false,
-  });
-  var R3T1B17 = anime({
-    targets: '#r3quote_block17',
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 3600,
-    easing: 'easeInOutQuad',
-    autoplay: false,
-  });
-  var R3T1B18 = anime({
-    targets: '#r3quote_block18',
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 3800,
-    easing: 'easeInOutQuad',
-    autoplay: false,
-  });
-  var R3T1B19 = anime({
-    targets: '#r3quote_block19',
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 4000,
-    easing: 'easeInOutQuad',
-    autoplay: false,
-  });
-  var R3T1B20 = anime({
-    targets: '#r3quote_block20',
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 4200,
-    easing: 'easeInOutQuad',
-    autoplay: false,
-  });
-  var R3T1B21 = anime({
-    targets: '#r3quote_block21',
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 4400,
-    easing: 'easeInOutQuad',
-    autoplay: false,
-  });
-  var R3T1I3 = anime({
-    targets: '#loopvid3C',
-    // translateY: [
-    //   {value: -25, duration: 400},
-    // ],
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 4600,
-    easing: 'easeInOutQuad',
-    autoplay: false
   });
   
   $(".row3").click(quote3appears);
@@ -259,14 +184,6 @@ var R3T1I1 = anime({
     R3T1B12.play();
     R3T1B13.play();
     R3T1B14.play();
-    R3T1B15.play();
-    R3T1B16.play();
-    R3T1B17.play();
-    R3T1B18.play();
-    R3T1B19.play();
-    R3T1B20.play();
-    R3T1B21.play();
-    R3T1I3.play();
     setTimeout(function () { IndexTest3() }, 8000);
     setTimeout(function () { R3QuoteFade() }, 10000);
   }
