@@ -164,6 +164,15 @@ var R3T1I1 = anime({
     easing: 'easeInOutQuad',
     autoplay: false,
   });
+  var R3T1B15 = anime({
+    targets: '#r3quote_block14',
+    opacity: [
+      { value: 1, duration: 500 },
+    ],
+    delay: 3200,
+    easing: 'easeInOutQuad',
+    autoplay: false
+  });
   
   $(".row3").click(quote3appears);
   function quote3appears() {
@@ -184,6 +193,7 @@ var R3T1I1 = anime({
     R3T1B12.play();
     R3T1B13.play();
     R3T1B14.play();
+    R3T1B15.play();
     setTimeout(function () { IndexTest3() }, 8000);
     setTimeout(function () { R3QuoteFade() }, 10000);
   }
