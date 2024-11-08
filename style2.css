@@ -307,13 +307,13 @@
 }
 
 #r3quote_block5 {
-    margin-left: 35.5vw;
+    margin-left: 37.5vw;
     margin-top: 25vh;
     opacity: 0;
 }
 
 #r3quote_block6 {
-    margin-left: 43vw;
+    margin-left: 42vw;
     margin-top: 27.5vh;
     opacity: 0;
 }
@@ -325,7 +325,7 @@
 }
 
 #r3quote_block8 {
-    margin-left: 52vw;
+    margin-left: 52.5vw;
     margin-top: 27.5vh;
     opacity: 0;
 }
@@ -338,7 +338,7 @@
 
 #r3quote_block10 {
     margin-left: 60vw;
-    margin-top: 32.25vh;
+    margin-top: 32.5vh;
     opacity: 0;
 }
 
@@ -355,8 +355,14 @@
 }
 
 #r3quote_block13 {
-    margin-left: 67vw;
+    margin-left: 65.5vw;
     margin-top: 40vh;
+    opacity: 0;
+}
+
+#r3quote_block14 {
+    margin-left: 73.75vw;
+    margin-top: 50vh;
     opacity: 0;
 }
 
