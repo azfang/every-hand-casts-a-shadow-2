@@ -152,19 +152,6 @@ var R8T1I1 = anime({
     autoplay: false
   });
 
-  var R7T1I3 = anime({
-    targets: '#loopvid8C',
-    // translateY: [
-    //   {value: -25, duration: 400},
-    // ],
-    opacity: [
-      { value: 1, duration: 500 },
-    ],
-    delay: 2600,
-    easing: 'easeInOutQuad',
-    autoplay: false
-  });
-
   $(".row8").click(quote8appears);
   function quote8appears() {
     $("#r8quote").fadeIn();
