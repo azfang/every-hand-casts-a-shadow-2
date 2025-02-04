@@ -165,23 +165,23 @@ var R8T1I1 = anime({
     autoplay: false
   });
 
-  $(".row7").click(quote7appears);
-  function quote7appears() {
-    $("#r7quote").fadeIn();
-    R7T1I1.play();
-    R7T1B1.play();
-    R7T1B2.play();
-    R7T1B3.play();
-    R7T1B4.play();
-    R7T1B5.play();
-    R7T1I2.play();
-    R7T1B6.play();
-    R7T1B7.play();
-    R7T1B8.play();
-    R7T1B9.play();
-    R7T1B10.play();
-    R7T1B11.play();
-    R7T1I3.play();
+  $(".row8").click(quote8appears);
+  function quote8appears() {
+    $("#r8quote").fadeIn();
+    R8T1I1.play();
+    R8T1B1.play();
+    R8T1B2.play();
+    R8T1B3.play();
+    R8T1B4.play();
+    R8T1B5.play();
+    R8T1I2.play();
+    R8T1B6.play();
+    R8T1B7.play();
+    R8T1B8.play();
+    R8T1B9.play();
+    R8T1B10.play();
+    R8T1B11.play();
+    R8T1I3.play();
     setTimeout(function () { IndexTest8() }, 8000);
     setTimeout(function () { R8QuoteFade() }, 10000);
   }
